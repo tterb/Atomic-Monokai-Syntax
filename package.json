@@ -1,0 +1,21 @@
+{
+  "name": "atomic-monokai-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "My first attempt at creating a syntax theme for Atom.",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JonSn0w/AtomicMonokai-syntax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JonSn0w/AtomicMonokai-syntax/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
