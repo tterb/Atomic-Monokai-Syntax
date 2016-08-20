@@ -4,18 +4,22 @@
   "version": "0.0.0",
   "description": "My first attempt at creating a syntax theme for Atom.",
   "keywords": [
-    "syntax",
-    "theme"
+      "atomic",
+      "monokai",
+      "sublime",
+      "text",
+      "syntax",
+      "theme"
   ],
   "repository": {
-    "type": "git",
-    "url": "https://github.com/JonSn0w/AtomicMonokai-syntax.git"
+      "type": "git",
+      "url": "https://github.com/JonSn0w/Atomic-Monokai.git"
   },
   "bugs": {
-    "url": "https://github.com/JonSn0w/AtomicMonokai-syntax/issues"
+      "url": "https://github.com/JonSn0w/Atomic-Monokai/issues"
   },
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+      "atom": ">=1.0.0 <2.0.0"
   }
 }
