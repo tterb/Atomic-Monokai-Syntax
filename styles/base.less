@@ -73,21 +73,6 @@ atom-text-editor .search-results .marker.current-result .region,
 .keyword {
     color: @magenta;
 
-    // &.control {
-    //   color: @magenta;
-    // }
-    //
-    // &.operator {
-    //   color: @magenta;
-    //
-    //   &.assignment {
-    //     color: @magenta;
-    //   }
-    //
-    //   &.increment-decrement {
-    //     color: @magenta;
-    //   }
-
     &.other.special-method {
         color: @blue;
     }
@@ -229,10 +214,6 @@ atom-text-editor .search-results .marker.current-result .region,
         &.entity.css {
             color: @blue;
         }
-
-        &.begin {
-            color: @blue;
-        }
     }
 
     &.section.method {
@@ -347,8 +328,13 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .markup {
     &.bold {
-        color: @orange;
+        color: @purple;
         font-weight: bold;
+
+        &.italic {
+            color: @green;
+            font-style: italic;
+        }
     }
 
     &.changed {
@@ -360,7 +346,7 @@ atom-text-editor .search-results .marker.current-result .region,
     }
 
     &.italic {
-        color: @purple;
+        color: @yellow;
         font-style: italic;
     }
 
@@ -401,11 +387,22 @@ atom-text-editor .search-results .marker.current-result .region,
     }
 }
 
-span.markup.underline.link.gfm {
+.markup.underline.link {
     color: @green;
+}
+
+.file.entry.list-item {
+
+    &.status-added {
+        color: @green;
+    }
+
+    &.status-modified {
+        color: @blue;
+    }
 }
 
 atom-text-editor[mini] .scroll-view,
 :host([mini]) .scroll-view {
-    padding-left: 1px;
+    padding-left: 3px;
 }
