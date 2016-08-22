@@ -4,6 +4,11 @@
 <br>
   As a long-time Sublime Text user, I've recently transitioned to using &nbsp; <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_editor_logo.svg/2000px-Atom_editor_logo.svg.png" width="24" height="24"/> [**Atom**](https://atom.io/) as my go-to code editor, and while I enjoy many of it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects.  
 
+  <br>
+    <p align="center">
+    <img src="https://github.com/JonSn0w/Atomic-Monokai/blob/master/screenshots/javaPreview.png" width="600" title="Screenshot">
+    </p>
+<br>
 
   ***In Progress:*** I'm still working to improve the syntax highlighting for Github-flavored Markdown (GFM).  
     
