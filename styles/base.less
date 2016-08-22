@@ -66,7 +66,7 @@ atom-text-editor .search-results .marker.current-result .region,
     color: @gray;
 
     &.block {
-        color: @light-gray;
+        color: @lighter-gray;
     }
 }
 
@@ -159,6 +159,14 @@ atom-text-editor .search-results .marker.current-result .region,
     &.parameter.function {
         color: @syntax-text-color;
     }
+
+    &.unordered.list.gfm {
+        color: @orange;
+    }
+
+    &.ordered.list.gfm {
+        color: @orange;
+    }
 }
 
 .invalid.illegal {
@@ -216,6 +224,14 @@ atom-text-editor .search-results .marker.current-result .region,
         &.italic {
             color: @purple;
             font-style: italic;
+        }
+
+        &.entity.css {
+            color: @blue;
+        }
+
+        &.begin {
+            color: @blue;
         }
     }
 
@@ -331,7 +347,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .markup {
     &.bold {
-        color: @magenta;
+        color: @orange;
         font-weight: bold;
     }
 
@@ -357,7 +373,7 @@ atom-text-editor .search-results .marker.current-result .region,
     }
 
     &.list {
-        color: @red;
+        color: @orange;
     }
 
     &.quote {
@@ -367,6 +383,10 @@ atom-text-editor .search-results .marker.current-result .region,
     &.raw.inline {
         color: @purple;
     }
+
+    &.underline.link {
+        color: @green;
+    }
 }
 
 .source.gfm .markup {
@@ -374,6 +394,15 @@ atom-text-editor .search-results .marker.current-result .region,
     &.heading {
         color: @magenta;
     }
+    &.underline.link {
+        color: @cyan;
+        font-style: italic;
+        text-decoration: underline;
+    }
+}
+
+span.markup.underline.link.gfm {
+    color: @green;
 }
 
 atom-text-editor[mini] .scroll-view,
