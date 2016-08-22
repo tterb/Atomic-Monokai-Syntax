@@ -1,7 +1,7 @@
 {
   "name": "atomic-monokai-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "My first attempt at creating a syntax theme for Atom.",
   "keywords": [
       "atomic",
