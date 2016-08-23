@@ -17,6 +17,12 @@
 
 <br>
 *Keep in mind, this is my first attempt at creating a syntax theme for Atom, so if there are any issues please feel free to let me know and I'll do my best to fix them.*  
+  
+## Other Packages: 
+
+  * [**Minimap**](https://atom.io/packages/minimap) - As featured in the above screenshot, *Minimap* applies a "*Sublime-esque*"  view to the right-side of the frame. 
+  * [**Project Manager**](https://atom.io/packages/project-manager) - delivers a familiar workflow for navigating multiple projects and project-specific settings.
+  
 <br>
 <br>
 ![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
