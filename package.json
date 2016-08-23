@@ -13,10 +13,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/JonSn0w/Atomic-Monokai.git"
+    "url": "https://github.com/JonSn0w/Atomic-Monokai-Syntax.git"
   },
   "bugs": {
-    "url": "https://github.com/JonSn0w/Atomic-Monokai/issues"
+    "url": "https://github.com/JonSn0w/Atomic-Monokai-Syntax/issues"
   },
   "license": "MIT",
   "engines": {
