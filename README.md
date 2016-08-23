@@ -6,7 +6,7 @@
 
   <br>
     <p align="center">
-    <img src="https://github.com/JonSn0w/Atomic-Monokai/blob/master/screenshots/javaPreview.png" width="950" title="Screenshot">
+    <img src="https://github.com/JonSn0w/Atomic-Monokai-Syntax/blob/master/screenshots/javaPreview.png" width="950" title="Screenshot">
     </p>
 <br>
 
