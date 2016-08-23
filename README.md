@@ -1,8 +1,8 @@
-<img src="http://plainicon.com/dboard/userprod/2800_a1826/prod_thumb/plainicon.com-50183-512px-db3.png" height="60"/> &nbsp; <img src="http://www.fontspace.com/preview/m/364a8071e55e887d0f9b47e0f81690bd.png" height="65"/>
+<img src="http://plainicon.com/dboard/userprod/2800_a1826/prod_thumb/plainicon.com-50183-512px-db3.png" height="60"/>&nbsp; <img src="http://www.fontspace.com/preview/m/4e8396b38a455b9aa3fe163dcff31d2f.png" height="68"/>
 ------------------------------------------------------------------------------------------------------------------------
 ####&nbsp;&nbsp;&nbsp; A Monokai inspired syntax-highlighting theme for Atom
 <br>
-  As a long-time Sublime Text user, I've recently transitioned to using &nbsp; <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_editor_logo.svg/2000px-Atom_editor_logo.svg.png" width="24" height="24"/> [**Atom**](https://atom.io/) as my go-to code editor, and while I enjoy many of it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects.  
+  As a long-time Sublime Text user, I've recently transitioned to using &nbsp; <img src="http://plainicon.com/dboard/userprod/2800_a1826/prod_thumb/plainicon.com-50183-512px-db3.png" width="24" height="24"/> [**Atom**](https://atom.io/) as my go-to code editor, and while I enjoy many of it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects.  
 
   <br>
     <p align="center">
@@ -10,11 +10,12 @@
     </p>
 <br>
 
-### In Progress: 
+## In Progress: 
 
   * I'm still working to improve the syntax highlighting for *Github-flavored Markdown* (GFM).  
   * Experimenting with ways better optimize syntax-highlighting across different types of programming languages.    
 
+<br>
 *Keep in mind, this is my first attempt at creating a syntax theme for Atom, so if there are any issues please feel free to let me know and I'll do my best to fix them.*  
 <br>
 <br>
