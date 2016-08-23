@@ -26,8 +26,6 @@ ________________________________________________________________________________
   * [**Highlight Selected**](https://atom.io/packages/highlight-selected) - highlights all instances of the currently selected element within the open file.
 
 <br>
-*For more useful packages, check out my* [Essential Atom Packages](), *which I'll continue to keep up to date as I explore and familiarize myself with the editor and it's community.*  
+*For more useful packages, check out my* [**Essential Atom Packages**](https://jonsn0w.github.io/projects/2016/08/22/essential-atom-packages.html), *which I'll continue to keep up to date as I explore and familiarize myself with the editor and it's community.*  
   
-<br>
-<br>
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+<br><br>
