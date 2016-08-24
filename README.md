@@ -27,9 +27,4 @@ ________________________________________________________________________________
 
 <br>
 *For more useful packages, check out my* [**Essential Atom Packages**](https://jonsn0w.github.io/projects/2016/08/22/essential-atom-packages.html), *which I'll continue to keep up to date as I explore and familiarize myself with the editor and it's community.*  
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> origin/master
 <br><br>
