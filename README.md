@@ -1,13 +1,13 @@
-<img src="http://plainicon.com/dboard/userprod/2800_a1826/prod_thumb/plainicon.com-50183-512px-db3.png" height="60"/>&nbsp; <img src="http://i32.photobucket.com/albums/d2/therealbrettstevenson/Github/Atomic%20Monokai/atomic_zpsv0swwz0q.png" height="68"/>
+<img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" height="60"/>&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/16360374/17991224/87b7c67e-6af1-11e6-9956-f7960d1a3f13.png" height="68"/>
 ------------------------------------------------------------------------------------------------------------------------
 ####&nbsp;&nbsp;&nbsp; A Monokai inspired syntax-highlighting theme for Atom &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![GitHub tag](https://img.shields.io/github/tag/jonsn0w/atomic-monokai-syntax.svg?maxAge=2592000)]()&nbsp;&nbsp;[![apm downloads](https://img.shields.io/apm/dm/atomic-monokai-syntax.svg?maxAge=2592000)](https://atom.io/packages/atomic-monokai-syntax) 
 
 <br>
-  As a long-time Sublime Text user, I've recently transitioned to using &nbsp; <img src="http://i32.photobucket.com/albums/d2/therealbrettstevenson/Github/Atomic%20Monokai/atom_zps8lz1oett.png" width="24" height="24"/> [**Atom**](https://atom.io/) as my go-to code editor, and while I enjoy many of it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects.  
+  As a long-time Sublime Text user, I've recently transitioned to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="24" height="24"/> [**Atom**](https://atom.io/) as my go-to code editor, and while I enjoy many of it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects.  
 
   <br>
     <p align="center">
-    <img src="http://i32.photobucket.com/albums/d2/therealbrettstevenson/Github/Atomic%20Monokai/javaPreview_zpsnyi0po6u.png" width="950" title="Screenshot">
+    <img src="https://cloud.githubusercontent.com/assets/16360374/17991247/af222646-6af1-11e6-9f00-61c81f9984e6.png" width="950" title="Screenshot">
     </p>
 <br>
 ## Install:  
