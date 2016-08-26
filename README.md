@@ -5,7 +5,7 @@
 <br>
   As a long-time Sublime Text user, I've recently transitioned to using &nbsp; <img src="http://i32.photobucket.com/albums/d2/therealbrettstevenson/Github/Atomic%20Monokai/atom_zps8lz1oett.png" width="24" height="24"/> [**Atom**](https://atom.io/) as my go-to code editor, and while I enjoy many of it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects.  
 
-  <br><br>
+  <br>
     <p align="center">
     <img src="http://i32.photobucket.com/albums/d2/therealbrettstevenson/Github/Atomic%20Monokai/javaPreview_zpsnyi0po6u.png" width="950" title="Screenshot">
     </p>
