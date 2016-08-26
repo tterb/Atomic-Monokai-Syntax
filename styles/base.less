@@ -64,9 +64,10 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .comment {
     color: @gray;
-
+    font-style: italic;
     &.block {
         color: @lighter-gray;
+        font-style: normal;
     }
 }
 
@@ -119,6 +120,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
     &.language {
         color: @purple;
+        font-style: italic;
     }
 
     &.other.color {
@@ -271,6 +273,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
     &.name.class, &.name.type.class {
         color: @blue;
+        text-decoration: bold;
     }
 
     &.name.section {
