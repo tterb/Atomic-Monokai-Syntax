@@ -148,7 +148,7 @@ atom-text-editor .search-results .marker.current-result .region,
     }
 
     &.unordered.list.gfm {
-        color: @orange;
+        color: @purple;
     }
 
     &.ordered.list.gfm {
@@ -157,13 +157,15 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .invalid.illegal {
-    background-color: @red;
-    color: @syntax-background-color;
+    color: @red;
 }
 
 .string {
     color: @yellow;
 
+    &.quoted.double.json {
+        color: @magenta;
+    }
 
     &.regexp {
         color: @purple;
@@ -254,6 +256,11 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .entity {
+
+    &.constant.md {
+        color: @magenta;
+    }
+
     &.name.function {
         color: @green;
 
@@ -264,7 +271,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
     &.name.type {
         color: @blue;
-        text-decoration: bold;
+        font-weight: bold;
     }
 
     &.other.inherited-class {
@@ -286,7 +293,12 @@ atom-text-editor .search-results .marker.current-result .region,
     }
 
     &.other.attribute-name {
-        color: @orange;
+        color: @blue;
+
+        &.html {
+            color: @magenta;
+            font-style: italic;
+        }
 
         &.id {
             color: @blue;
@@ -295,6 +307,10 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .meta {
+    &.call {
+        color: @syntax-text-color;
+    }
+
     &.class {
         color: @green;
 
@@ -315,13 +331,17 @@ atom-text-editor .search-results .marker.current-result .region,
         color: @purple;
     }
 
-    &.call {
-        color: @syntax-text-color;
-    }
-
     &.separator {
         background-color: @dark-gray;
         color: @syntax-text-color;
+    }
+
+    &.structure.dictionary.json {
+        color: @magenta;
+    }
+
+    &.structure.dictionary.value.json {
+        color: @blue;
     }
 }
 
@@ -376,6 +396,10 @@ atom-text-editor .search-results .marker.current-result .region,
     &.underline.link {
         color: @green;
     }
+
+    &.unordered.list {
+        color: @purple;
+    }
 }
 
 .source.gfm .markup {
@@ -403,6 +427,14 @@ atom-text-editor .search-results .marker.current-result .region,
     &.status-modified {
         color: @blue;
     }
+}
+
+.hr.constant.md {
+    color: @blue;
+}
+
+.unordered.list.markup.md {
+    color: orange;
 }
 
 atom-text-editor[mini] .scroll-view,
