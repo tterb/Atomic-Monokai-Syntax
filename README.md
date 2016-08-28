@@ -22,7 +22,7 @@ $ apm install atomic-monokai-syntax
 
 __________________________________________________________________________________________________________________
 ## In Progress:
- 
+
   * Experimenting with ways better optimize syntax-highlighting across different types of programming languages.
 
 <br>
@@ -31,7 +31,7 @@ ________________________________________________________________________________
 
 ## Other Packages:
 
-  * [**Minimap**](https://atom.io/packages/minimap) - As featured in the above screenshot, *Minimap* applies a "*Sublime-esque*"  view to the right-side of the frame.
+  * [**Minimap**](https://atom.io/packages/minimap) - featured in the above screenshot, *Minimap* applies a "*Sublime-esque*" view to the right-side of the frame.
   * [**Project Manager**](https://atom.io/packages/project-manager) - delivers a familiar workflow for navigating multiple projects and project-specific settings.
   * [**Highlight Selected**](https://atom.io/packages/highlight-selected) - highlights all instances of the currently selected element within the open file.
 
