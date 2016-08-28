@@ -2,6 +2,7 @@
 
 ## Version 0.1.5
 
+  * Improved syntax-highlighting for HTML, JSON, and GFM.
   * Added CHANGELOG for package.
   * Improved README formatting.
 
@@ -37,4 +38,3 @@
 ## Version 0.1.0
 
   * Initial commit & push.
-  
