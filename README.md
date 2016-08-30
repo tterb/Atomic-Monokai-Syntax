@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/apm/dm/atomic-monokai-syntax.svg?maxAge=2592000" width="95" title="apm download">&nbsp;&nbsp;
 </p>
 
-  As a long-time Sublime Text user, I've recently transitioned to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="24" height="24"/> [**Atom**](https://atom.io/) as my go-to code editor, and while I enjoy many of it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects.
+  As a long-time Sublime Text user, I've recently transitioned to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="24" height="24"/> [**Atom**](https://atom.io/) as my go-to code editor, and while I enjoy many of it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects.  
   ***Update:*** I've become developing a complementary UI theme for Atomic Monokai, which can be found [here](https://github.com/JonSn0w/Atomic-Design-UI).
 
   <br>
