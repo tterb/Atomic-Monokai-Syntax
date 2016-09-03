@@ -1,5 +1,11 @@
 # Change Log
 
+## Version 1.0.0
+
+  * Initial major version release
+
+------------------------------------------------------------------------------------------------------------------------
+
 ## Version 0.1.6
 
   * Improved syntax-highlighting for CSS and LESS.
