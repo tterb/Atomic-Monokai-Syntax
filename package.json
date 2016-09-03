@@ -1,7 +1,7 @@
 {
   "name": "Atomic-Monokai-Syntax",
   "theme": "syntax",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "description": "A \"Monokai\"-flavored syntax theme, inspired by Sublime Text.",
   "keywords": [
     "atomic",
