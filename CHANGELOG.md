@@ -1,5 +1,12 @@
 # Change Log
 
+## Version 0.1.6
+
+  * Improved syntax-highlighting for CSS and LESS.
+  * Minor modifications to gray-palette.
+
+------------------------------------------------------------------------------------------------------------------------
+
 ## Version 0.1.5
 
   * Improved syntax-highlighting for HTML, JSON, and GFM.
