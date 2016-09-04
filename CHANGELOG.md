@@ -1,5 +1,12 @@
 # Change Log
 
+## Version 1.0.1
+
+  * Improved syntax-highlighting for HTML
+  * A variety of screenshots added to README.md
+
+------------------------------------------------------------------------------------------------------------------------
+
 ## Version 1.0.0
 
   * Initial major version release
@@ -15,7 +22,7 @@
 
 ## Version 0.1.5
 
-  * Improved syntax-highlighting for HTML, JSON, and GFM.
+  * Improved syntax-highlighting for JSON and GFM.
   * Added CHANGELOG for package.
   * Improved README formatting.
 
