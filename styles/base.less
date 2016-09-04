@@ -145,10 +145,14 @@ atom-text-editor .search-results .marker.current-result .region,
 
     &.parameter {
         color: @orange;
-    }
 
-    &.parameter.function {
-        color: @syntax-text-color;
+        &.function {
+            color: @syntax-text-color;
+        }
+
+        &.misc.css {
+            color: @blue;
+        }
     }
 
     &.unordered.list.gfm {
@@ -326,6 +330,10 @@ atom-text-editor .search-results .marker.current-result .region,
 
         &.id {
             color: @blue;
+
+            &.css {
+                color: @magenta;
+            }
         }
 
         &.pseudo-element.css {
