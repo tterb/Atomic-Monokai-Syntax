@@ -1,0 +1,38 @@
+// CSS
+@import "syntax-variables";
+
+.variable {
+    &.parameter.misc.css {
+        color: @blue;
+    }
+}
+
+.constant {
+    &.property-value.css {
+        color: @green;
+    }
+}
+
+.punctuation.definition {
+    &.entity.css {
+        color: @blue;
+    }
+}
+
+.support.function  {
+&.any-method.builtin.css {
+        color: @green;
+    }
+}
+
+.entity {
+    &.other.attribute-name {
+        &.id.css {
+            color: @magenta;
+        }
+
+        &.pseudo-element.css {
+            color: @magenta;
+        }
+    }
+}

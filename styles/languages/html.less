@@ -1,0 +1,17 @@
+// HTML
+@import "syntax-variables";
+
+.entity {
+    &.name.tag {
+        &.block.any.html {
+            color: @magenta;
+        }
+
+        &.inline.any.html {
+            color: @green;
+        }
+    }
+    &.other.attribute-name.html {
+        font-style: italic;
+    }
+}

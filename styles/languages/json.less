@@ -1,0 +1,20 @@
+// JSON
+@import "syntax-variables";
+
+.string {
+    &.quoted.double.json {
+        color: @magenta;
+    }
+}
+
+.meta {
+    &.structure.dictionary {
+        &.json {
+            color: @magenta;
+        }
+
+        &.value.json {
+            color: @blue;
+        }
+    }
+}
