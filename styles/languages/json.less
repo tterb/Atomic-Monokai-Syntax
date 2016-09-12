@@ -1,9 +1,18 @@
 // JSON
 @import "syntax-variables";
 
+.punctuation {
+    &.definition.dictionary.json {
+        color: @syntax-text-color;
+    }
+    &.separator.dictionary.key-value.json {
+        color: @green;
+    }
+}
+
 .string {
     &.quoted.double.json {
-        color: @magenta;
+        color: @orange;
     }
 }
 
@@ -15,6 +24,28 @@
 
         &.value.json {
             color: @blue;
+        }
+    }
+}
+
+.source.json {
+    .meta.structure.dictionary.json {
+        & > .string.quoted.json {
+            & > .punctuation.string {
+                color: @yellow;
+            }
+            color: @magenta;
+        }
+    }
+
+    .meta.structure.dictionary.json, .meta.structure.array.json {
+        & > .value.json > .string.quoted.json,
+        & > .value.json > .string.quoted.json > .punctuation {
+            color: @syntax-text-color;
+        }
+
+        & > .constant.language.json {
+            color: @purple;
         }
     }
 }
