@@ -1,24 +1,17 @@
 // Java
-@import "syntax-variables";
 
-.source.java {
-  .storage {
+.source.java.storage {
     &.modifier.import {
-      color: @orange;
+        color: @orange;
     }
 
     &.type {
-      color: @blue;
+        color: @blue;
     }
-  }
 }
 
 .source.java-properties {
-  .meta.key-pair {
-    color: @magenta;
-
-    // & > .punctuation {
-    //   color: @mono-1;
-    // }
-  }
+    .meta.key-pair {
+      color: @magenta;
+    }
 }
