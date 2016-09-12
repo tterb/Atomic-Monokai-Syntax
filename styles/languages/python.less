@@ -1,2 +1,22 @@
 // Python
 @import "syntax-variables";
+
+.source.python {
+    .keyword.operator.logical.python {
+        color: @magenta;
+    }
+    .variable {
+        color: @orange;
+        font-style: italic; // for 'self'
+    }
+    .variable.parameter {
+        color: @blue;
+        font-style: normal;
+    }
+}
+
+.support {
+    &.function.builtin.python {
+        color: @blue;
+    }
+}
