@@ -1,5 +1,12 @@
 # Change Log
 
+## Version 1.1.0
+
+  * Package restructured to improve highlighting for individual languages.
+  * Improved syntax-highlighting for Java, JSON, Perl, and Python. 
+
+------------------------------------------------------------------------------------------------------------------------
+
 ## Version 1.0.1
 
   * Improved syntax-highlighting for HTML
