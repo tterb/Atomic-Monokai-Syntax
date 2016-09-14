@@ -5,9 +5,15 @@
         color: @green;
     }
     &.other.attribute-name {
+        &.class {
+            color: @magenta;
+        }
         &.id.css {
             color: @magenta;
             font-weight: bold;
+        }
+        &.parent-selector.css {
+            color: @purple;
         }
         &.pseudo-element.css {
             color: @magenta;
@@ -21,8 +27,15 @@
     }
 }
 
-.punctuation.definition {
-    &.entity.css {
+.meta.property-list.css {
+    color: @blue;
+}
+
+.punctuation {
+    &.section.css {
+        color: @syntax-text-color;
+    }
+    &.definition.entity.css {
         color: @blue;
     }
 }
@@ -30,6 +43,9 @@
 .support {
     &.function.any-method.builtin.css {
         color: @green;
+    }
+    &.type.property-name.css {
+        color: @syntax-text-color;
     }
 }
 

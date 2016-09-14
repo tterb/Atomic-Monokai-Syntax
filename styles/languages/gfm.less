@@ -1,22 +1,39 @@
 // GitHub-flavored Mardown
 
 .source.gfm .markup {
-    -webkit-font-smoothing: auto;
+
+    &.bold {
+        color: @purple;
+        font-weight: bold;
+    }
 
     &.heading {
         color: @magenta;
+        font-weight: bold;
+    }
+
+    &.italic {
+        color: @yellow;
+        font-style: italic;
     }
 
     &.underline.link {
         color: @green;
         font-style: italic;
+        font-weight: lighter;
         text-decoration: underline;
+    }
+}
+
+.constant {
+    &.character.entity.gfm {
+        color: @blue;
     }
 }
 
 .variable {
     &.unordered.list.gfm {
-        color: @purple;
+        color: @orange;
     }
 
     &.ordered.list.gfm {
