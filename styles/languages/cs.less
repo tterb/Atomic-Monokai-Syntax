@@ -1,0 +1,21 @@
+// C#
+
+.source.cs {
+    .meta {
+        &.method-call {
+            color: @blue;
+        }
+    }
+
+    .punctuation {
+        &.section.class.end {
+            color: @syntax-text-color;
+        }
+    }
+
+    .variable {
+        &.parameter.function {
+            color: @orange;
+        }
+    }
+}
