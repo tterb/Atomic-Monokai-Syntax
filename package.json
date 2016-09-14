@@ -1,9 +1,8 @@
 {
-  "name": "atomic-monokai-syntax",
+  "name": "Atomic-Monokai-Syntax",
   "theme": "syntax",
   "version": "1.0.0",
   "description": "A \"Monokai\"-flavored syntax theme, inspired by Sublime Text.",
-  "readmeFilename": "README.md",
   "keywords": [
     "atomic",
     "monokai",
@@ -15,10 +14,9 @@
     "modern",
     "contrast",
     "dark",
-    "language",
-    "support",
     "atom",
-    "package"
+    "language",
+    "support"
   ],
   "repository": {
     "type": "git",

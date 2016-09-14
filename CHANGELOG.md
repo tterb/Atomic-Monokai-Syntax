@@ -3,7 +3,7 @@
 ## Version 1.1.0
 
   * Package restructured to improve highlighting for individual languages.
-  * Improved syntax-highlighting for Java, JSON, Perl, and Python. 
+  * Improved syntax-highlighting for C++, C#, CSS, GFM, Java, JSON, Perl, Python, and Ruby. 
 
 ------------------------------------------------------------------------------------------------------------------------
 
