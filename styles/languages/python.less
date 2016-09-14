@@ -1,21 +1,41 @@
 // Python
 
 .source.python {
-    .keyword.operator.logical.python {
-        color: @magenta;
+    .keyword {
+        &.operator.logical {
+            color: @blue;
+        }
+        &.other {
+            color: @blue;
+        }
     }
+
     .variable {
-        color: @orange;
-        font-style: italic;
-    }
-    .variable.parameter {
         color: @blue;
-        font-style: normal;
+        font-style: italic;
+        &.parameter {
+            color: @orange;
+            font-style: normal;
+        }
+    }
+}
+
+.entity.name.function.python {
+    color: @green;
+}
+
+.meta {
+    &.function.python {
+        color: @magenta;
     }
 }
 
 .support {
     &.function.builtin.python {
-        color: @blue;
+        color: @purple;
     }
+}
+
+.storage.type.function.python {
+    color: @blue;
 }

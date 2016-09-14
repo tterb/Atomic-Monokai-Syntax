@@ -1,8 +1,17 @@
 // CSS
 
-.variable {
-    &.parameter.misc.css {
-        color: @blue;
+.entity {
+    &.name.tag.css {
+        color: @green;
+    }
+    &.other.attribute-name {
+        &.id.css {
+            color: @magenta;
+            font-weight: bold;
+        }
+        &.pseudo-element.css {
+            color: @magenta;
+        }
     }
 }
 
@@ -24,14 +33,8 @@
     }
 }
 
-.entity {
-    &.other.attribute-name {
-        &.id.css {
-            color: @magenta;
-        }
-
-        &.pseudo-element.css {
-            color: @magenta;
-        }
+.variable {
+    &.parameter.misc.css {
+        color: @blue;
     }
 }
