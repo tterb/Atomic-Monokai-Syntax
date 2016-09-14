@@ -1,8 +1,37 @@
 // Ruby
-@import "syntax-variables";
+
+.keyword.control.def.ruby {
+    color: @magenta;
+}
+
+.punctuation.definition.variable.ruby {
+    color: @syntax-text-color;
+}
+
+.meta.function.method.with-arguments.ruby {
+    color: @orange;
+}
 
 .string.regexp {
     .source.ruby.embedded {
         color: @orange;
+    }
+}
+
+.support.function.kernel.ruby {
+    color: @blue;
+}
+
+.variable {
+    &.parameter.function.ruby {
+        color: @orange;
+    }
+    &.other {
+        &.readwrite.instance.ruby {
+            // color: @blue;
+        }
+        &.constant.ruby {
+            // color: @orange;
+        }
     }
 }
