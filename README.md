@@ -2,13 +2,15 @@
 ------------------------------------------------------------------------------------------------------------------------
 ####&nbsp;&nbsp;&nbsp; A Monokai inspired syntax-highlighting theme for Atom
 
-[![Join the chat at https://gitter.im/Atomic-Monokai/Lobby](https://badges.gitter.im/Atomic-Monokai/Lobby.svg)](https://gitter.im/Atomic-Monokai/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 <p align="right">
     <img src="https://img.shields.io/github/tag/jonsn0w/atomic-monokai-syntax.svg?maxAge=2592000?" height="21" title="version">&nbsp;&nbsp;
     <img src="https://img.shields.io/apm/dm/atomic-monokai-syntax.svg?maxAge=2592000?style=" height="21" title="apm downloads">&nbsp;&nbsp;
+    <a href="https://gitter.im/Atomic-Monokai/Lobby">
+        <img src="https://badges.gitter.im/Atomic-Monokai/Lobby.svg" height="21" title="Gitter">
+    </a>
 </p>
 
-  As a long-time Sublime Text user, I've recently transitioned to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="24" height="24"/> [**Atom**](https://atom.io/) as my go-to code editor, and while I enjoy many of it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects.  
+  As a long-time Sublime Text user, I've recently transitioned to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="24" height="24"/> [**Atom**](https://atom.io/) as my go-to code editor, and while I enjoy many of it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects. I'm currently still working to improve the syntac-highlighting for individual languages, so feel free to submit any languages you would like to see improved.  
   ***Update:*** I'm currently also developing complimentary UI-theme for this syntax-theme, so if you like this theme definitely check out [**Atomic Design**](https://atom.io/themes/atomic-design-ui).
 
   <br>
@@ -16,6 +18,7 @@
     <img src="https://cloud.githubusercontent.com/assets/16360374/17991247/af222646-6af1-11e6-9f00-61c81f9984e6.png" width="950" title="Screenshot">
     </p>
 <br>
+
 ## Install:
   This repository is distributed with [*apm*](https://atom.io/themes). After [installing apm](https://github.com/atom/apm#installing), you can install the syntax theme with this command.
 
@@ -26,7 +29,7 @@ $ apm install atomic-monokai-syntax
 __________________________________________________________________________________________________________________
 ## In Progress:
 
-  * Experimenting with ways better optimize syntax-highlighting across different types of programming languages.
+  * Still working to improve syntax-highlighting for an expansive collection of languages.
 
 <br>
 *Keep in mind, this is my first attempt at creating a syntax theme for Atom, so if there are any issues please feel free to let me know and I'll do my best to fix them.*
@@ -52,4 +55,4 @@ ________________________________________________________________________________
 <br>
 __________________________________________________________________________________________________________________
 
-[License](https://github.com/JonSn0w/Atomic-Monokai-Syntax/blob/master/LICENSE.md)
+&nbsp;&nbsp;&nbsp;&nbsp;[*License*](https://github.com/JonSn0w/Atomic-Monokai-Syntax/blob/master/LICENSE.md)
