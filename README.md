@@ -3,8 +3,13 @@
 ####&nbsp;&nbsp;&nbsp; A Monokai inspired syntax-highlighting theme for Atom
 
 <p align="right">
-    <img src="https://img.shields.io/github/tag/jonsn0w/atomic-monokai-syntax.svg?maxAge=2592000?" height="21" title="version">&nbsp;&nbsp;
-    <img src="https://img.shields.io/apm/dm/atomic-monokai-syntax.svg?maxAge=2592000?style=" height="21" title="apm downloads">&nbsp;&nbsp;
+    <a href="https://opensource.org/licenses/MIT">
+		<img src="https://img.shields.io/apm/l/atomic-monokai-syntax.svg?" height="21" title="License">&nbsp;&nbsp;
+	</a>
+	<a href="https://atom.io/themes/atomic-monokai-syntax">
+		<img src="https://img.shields.io/apm/v/atomic-monokai-syntax.svg?" height="21" title="Version">&nbsp;&nbsp;
+	</a>
+    <img src="https://img.shields.io/apm/dm/atomic-monokai-syntax.svg?maxAge=2592000?style=" height="21" title="Downloads">&nbsp;&nbsp;
     <a href="https://gitter.im/Atomic-Monokai/Lobby">
         <img src="https://badges.gitter.im/Atomic-Monokai/Lobby.svg" height="21" title="Gitter">
     </a>
