@@ -32,8 +32,19 @@
     }
 }
 
-.meta.property-list.css {
-    color: @blue;
+.keyword.control {
+    &.import.option.less {
+        color: @purple;
+    }
+}
+
+.meta {
+    .at-rule.import.css {
+        color: @orange;
+    }
+    .property-list.css {
+        color: @blue;
+    }
 }
 
 .punctuation {
@@ -43,11 +54,22 @@
     &.definition.entity.css {
         color: @blue;
     }
+    &.definition.keyword.less {
+        color: @orange;
+    }
+    &.separator.key-value.css {
+        color: @blue;
+    }
 }
 
 .support {
-    &.function.any-method.builtin.css {
-        color: @green;
+    &.function.any-method.builtin{
+        &.css {
+            color: @green;
+        }
+        &.less {
+            color: @magenta;
+        }
     }
     &.type.property-name.css {
         color: @syntax-text-color;
