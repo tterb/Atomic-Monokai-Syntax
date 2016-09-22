@@ -30,7 +30,7 @@
 ```
 $ apm install atomic-monokai-syntax
 ```
-
+<br>
 __________________________________________________________________________________________________________________
 ## In Progress:
 
@@ -38,13 +38,14 @@ ________________________________________________________________________________
 
 <br>
 *Keep in mind, this is my first attempt at creating a syntax theme for Atom, so if there are any issues please feel free to let me know and I'll do my best to fix them.*
+<br>
 __________________________________________________________________________________________________________________
 
 ## Screenshots:
 
   * [Java](https://cloud.githubusercontent.com/assets/16360374/17991247/af222646-6af1-11e6-9f00-61c81f9984e6.png)
   * [HTML](https://cloud.githubusercontent.com/assets/16360374/18231558/6cba7498-7271-11e6-9575-d4448e5910d5.png)
-  * [Markdown](https://cloud.githubusercontent.com/assets/16360374/18231352/9642c068-726c-11e6-857a-7e3d76293f88.png)
+  * [Markdown](https://cloud.githubusercontent.com/assets/16360374/18231352/9642c068-726c-11e6-857a-7e3d76293f88.png)  
 
 __________________________________________________________________________________________________________________
 
