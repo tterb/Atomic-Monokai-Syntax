@@ -1,6 +1,10 @@
 // C#
 
 .source.cs {
+    .entity.name.type.namespace {
+        color: @purple;
+    }
+    
     .meta {
         &.method-call {
             color: @blue;
@@ -8,6 +12,12 @@
     }
 
     .punctuation {
+        &.definition {
+            color: @syntax-text-color;
+            &.string {
+                color: @yellow;
+            }
+        }
         &.section.class.end {
             color: @syntax-text-color;
         }
