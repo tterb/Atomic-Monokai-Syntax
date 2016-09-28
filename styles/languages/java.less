@@ -1,12 +1,18 @@
 // Java
 
-.source.java.storage {
-    &.modifier.import {
-        color: @orange;
+.source.java {
+    .entity.name.function {
+        color: @green;
     }
+    
+    .storage {
+        &.modifier.import {
+            color: @orange;
+        }
 
-    &.type {
-        color: @blue;
+        &.type {
+            color: @blue;
+        }
     }
 }
 
@@ -14,8 +20,4 @@
     .meta.key-pair {
       color: @magenta;
     }
-}
-
-.entity.name.function.java {
-    color: @green;
 }

@@ -1,22 +1,23 @@
 // Perl
-
-.punctuation.definition {
-    &.variable.perl {
-        color: @blue;
+.source.perl {
+    .punctuation.definition {
+        &.variable {
+            color: @blue;
+        }
     }
-}
 
-.constant.character.escape.perl {
-    color: @purple;
-}
+    .constant.character.escape {
+        color: @purple;
+    }
 
-.string.regexp.perl {
-    color: @orange;
-}
+    .string.regexp {
+        color: @orange;
+    }
 
-.keyword {
-    &.control.regexp-option.perl {
-        color: @green;
-        font-style: italic;
+    .keyword {
+        &.control.regexp-option {
+            color: @green;
+            font-style: italic;
+        }
     }
 }

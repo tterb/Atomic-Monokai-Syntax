@@ -1,16 +1,18 @@
 // HTML
 
-.entity {
-    &.name.tag {
-        &.block.html {
-            color: @magenta;
-        }
+.source.html {
+    .entity {
+        &.name.tag {
+            &.block {
+                color: @magenta;
+            }
 
-        &.inline.any.html {
-            color: @green;
+            &.inline.any {
+                color: @green;
+            }
         }
-    }
-    &.other.attribute-name.html {
-        font-style: italic;
+        &.other.attribute-name {
+            font-style: italic;
+        }
     }
 }
