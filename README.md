@@ -47,6 +47,7 @@ ________________________________________________________________________________
   * [HTML](https://cloud.githubusercontent.com/assets/16360374/18231558/6cba7498-7271-11e6-9575-d4448e5910d5.png)
   * [Markdown](https://cloud.githubusercontent.com/assets/16360374/18231352/9642c068-726c-11e6-857a-7e3d76293f88.png)  
 
+<br>
 __________________________________________________________________________________________________________________
 
 ## Other Packages:
@@ -62,7 +63,9 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________
 
 <p align="right">
- <a href="https://gitter.im/Atomic-Monokai/Lobby">
+     <span class="badge-paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E6RKPR34SH6CU" title="Donate to this project using Paypal">
+ <img src="https://img.shields.io/badge/paypal-donate-yellow.svg" height="21" title="Donate"></a></span>&nbsp;&nbsp;
+    <a href="https://gitter.im/Atomic-Monokai/Lobby">
         <img src="https://badges.gitter.im/Atomic-Monokai/Lobby.svg" height="21" title="Gitter">
     </a>
 </p>
