@@ -10,9 +10,9 @@
 		<img src="https://img.shields.io/apm/v/atomic-monokai-syntax.svg?" height="21" title="Version">&nbsp;&nbsp;
 	</a>
     <img src="https://img.shields.io/apm/dm/atomic-monokai-syntax.svg?maxAge=2592000?style=" height="21" title="Downloads">&nbsp;&nbsp;
-    <a href="https://gitter.im/Atomic-Monokai/Lobby">
-        <img src="https://badges.gitter.im/Atomic-Monokai/Lobby.svg" height="21" title="Gitter">
-    </a>
+    <a href="https://atom.io/themes/atomic-monokai-syntax">
+		<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" height="21" title="Version">&nbsp;&nbsp;
+	</a>
 </p>
 
   As a long-time Sublime Text user, I've recently transitioned to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="24" height="24"/> [**Atom**](https://atom.io/) as my go-to code editor, and while I enjoy many of it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects. I'm currently still working to improve the syntac-highlighting for individual languages, so feel free to submit any languages you would like to see improved.  
@@ -47,6 +47,7 @@ ________________________________________________________________________________
   * [HTML](https://cloud.githubusercontent.com/assets/16360374/18231558/6cba7498-7271-11e6-9575-d4448e5910d5.png)
   * [Markdown](https://cloud.githubusercontent.com/assets/16360374/18231352/9642c068-726c-11e6-857a-7e3d76293f88.png)  
 
+<br>
 __________________________________________________________________________________________________________________
 
 ## Other Packages:
@@ -61,4 +62,10 @@ ________________________________________________________________________________
 <br>
 __________________________________________________________________________________________________________________
 
-&nbsp;&nbsp;&nbsp;&nbsp;[*License*](https://github.com/JonSn0w/Atomic-Monokai-Syntax/blob/master/LICENSE.md)
+<p align="right">
+     <span class="badge-paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E6RKPR34SH6CU" title="Donate to this project using Paypal">
+ <img src="https://img.shields.io/badge/paypal-donate-yellow.svg" height="21" title="Donate"></a></span>&nbsp;&nbsp;
+    <a href="https://gitter.im/Atomic-Monokai/Lobby">
+        <img src="https://badges.gitter.im/Atomic-Monokai/Lobby.svg" height="21" title="Gitter">
+    </a>
+</p>
