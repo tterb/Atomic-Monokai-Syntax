@@ -1,55 +1,43 @@
 // JSON
 
-.punctuation {
-    &.definition.dictionary.json {
-        color: @syntax-text-color;
-    }
-    &.separator.dictionary.key-value.json {
-        color: @blue;
-    }
-}
-
-.string {
-    &.quoted.double.json {
-        color: @purple;
-    }
-}
-
-.markup.underline.link.https.hyperlink {
-    color: @green;
-    font-style: italic;
-    text-decoration: underline;
-}
-
-.meta {
-    &.structure.dictionary {
-        &.json {
-            color: @magenta;
-        }
-
-        &.value.json {
-            color: @blue;
-        }
-    }
-}
-
 .source.json {
-    .meta.structure.dictionary.json {
-        & > .string.quoted.json {
-            & > .punctuation.string {
-                color: @yellow;
-            }
+    .meta {
+        &.structure.dictionary {
             color: @magenta;
+            &.value {
+                color: @blue;
+            }
+            & > .string.quoted {
+                & > .punctuation.string {
+                    color: @yellow;
+                }
+                color: @magenta;
+            }
+        }
+
+        &.structure.dictionary.json, &.structure.array.json {
+            & > .value.json > .string.quoted.json,
+            & > .value.json > .string.quoted.json > .punctuation {
+                color: @syntax-text-color;
+            }
+
+            & > .constant.language.json {
+                color: @purple;
+            }
         }
     }
 
-    .meta.structure.dictionary.json, .meta.structure.array.json {
-        & > .value.json > .string.quoted.json,
-        & > .value.json > .string.quoted.json > .punctuation {
+    .punctuation {
+        &.definition.dictionary {
             color: @syntax-text-color;
         }
+        &.separator.dictionary.key-value {
+        color: @blue;
+        }
+    }
 
-        & > .constant.language.json {
+    .string {
+        &.quoted.double {
             color: @purple;
         }
     }
