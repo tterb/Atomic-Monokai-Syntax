@@ -1,9 +1,17 @@
 # Change Log
+<br>  
+
+## Version 1.2.0
+   * Improved syntax-highlighting for JavaScript, C#, GFM, and Lua
+   * Normalized style formatting
+   * Removed unnecessary color variables
+
+------------------------------------------------------------------------------------------------------------------------  
 
 ## Version 1.1.0
 
-  * Package restructured to improve highlighting for individual languages.
-  * Improved syntax-highlighting for C++, C#, CSS, GFM, Java, JSON, Perl, Python, and Ruby. 
+  * Package restructured to improve highlighting for individual languages
+  * Improved syntax-highlighting for C++, C#, CSS, GFM, Java, JSON, Perl, Python, and Ruby
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -23,45 +31,45 @@
 ## Version 0.1.6
 
   * Improved syntax-highlighting for CSS and LESS.
-  * Minor modifications to gray-palette.
+  * Minor modifications to gray-palette
 
 ------------------------------------------------------------------------------------------------------------------------
 
 ## Version 0.1.5
 
-  * Improved syntax-highlighting for JSON and GFM.
-  * Added CHANGELOG for package.
-  * Improved README formatting.
+  * Improved syntax-highlighting for JSON and GFM
+  * Added CHANGELOG for package
+  * Improved README formatting
 
 ------------------------------------------------------------------------------------------------------------------------
 
 ## Version 0.1.4
 
-  * Fixed issue with inconsistent README images.
-  * Removed unnecessary specifications.
+  * Fixed issue with inconsistent README images
+  * Removed unnecessary specifications
 
 ------------------------------------------------------------------------------------------------------------------------
 
 ## Version 0.1.3
 
-  * Improved syntax-highlighting support for *GFM*.
-  * Minor modifications to color scheme.
+  * Improved syntax-highlighting support for *GFM*
+  * Minor modifications to color scheme
 
 ------------------------------------------------------------------------------------------------------------------------
 
 ## Version 0.1.2
 
-  * Optimized color variables.
-  * Added screenshot to README.
+  * Optimized color variables
+  * Added screenshot to README
 
 ------------------------------------------------------------------------------------------------------------------------
 
 ## Version 0.1.1
 
-  * Package published.
+  * Package published
 
 ------------------------------------------------------------------------------------------------------------------------
 
 ## Version 0.1.0
 
-  * Initial commit & push.
+  * Initial commit & push
