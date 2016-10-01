@@ -15,7 +15,7 @@
 	</a>
 </p>
 
-  As a long-time Sublime Text user, I've recently transitioned to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="24" height="24"/> [**Atom**](https://atom.io/) as my go-to code editor, and while I enjoy many of it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects. I'm currently still working to improve the syntac-highlighting for individual languages, so feel free to submit any languages you would like to see improved.  
+  As a long-time Sublime Text user, I've recently transitioned to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="24" height="24"/> [**Atom**](https://atom.io/) as my go-to code editor, and while I enjoy many of it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects. I'm currently still working to improve the syntax-highlighting for individual languages, so feel free to submit any languages you would like to see improved.  
   ***Update:*** I'm currently also developing complimentary UI-theme for this syntax-theme, so if you like this theme definitely check out [**Atomic Design**](https://atom.io/themes/atomic-design-ui).
 
   <br>
@@ -55,6 +55,7 @@ ________________________________________________________________________________
   * [**Minimap**](https://atom.io/packages/minimap) - featured in the above screenshot, *Minimap* applies a "*Sublime-esque*" view to the right-side of the frame.
   * [**Project Manager**](https://atom.io/packages/project-manager) - delivers a familiar workflow for navigating multiple projects and project-specific settings.
   * [**Highlight Selected**](https://atom.io/packages/highlight-selected) - highlights all instances of the currently selected element within the open file.
+  * [***More...***](https://jonsn0w.github.io/projects/2016/08/22/essential-atom-packages.html)
 
 <br>
 
