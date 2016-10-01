@@ -1,24 +1,41 @@
 // C#
 
 .source.cs {
-    .entity.name.type.namespace {
-        color: @purple;
+
+    .entity.name.type {
+        &.class {
+            color: @green;
+        }
+        &.namespace {
+            color: @blue;
+            font-weight: normal;
+        }
     }
-    
+
     .meta {
         &.method-call {
             color: @blue;
+        }
+        &.namespace {
+            color: @green;
+
+            &.body {
+                color: @syntax-text-color;
+            }
         }
     }
 
     .punctuation {
         &.definition {
             color: @syntax-text-color;
+            &.comment {
+                color: @lighter-gray;
+            }
             &.string {
                 color: @yellow;
             }
         }
-        &.section.class.end {
+        &.section {
             color: @syntax-text-color;
         }
     }
