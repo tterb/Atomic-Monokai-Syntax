@@ -1,7 +1,8 @@
 # Change Log
 <br>  
 
-## Version 1.2.0
+## Version 1.1.1
+
    * Improved syntax-highlighting for JavaScript, C#, GFM, and Lua
    * Normalized style formatting
    * Removed unnecessary color variables
