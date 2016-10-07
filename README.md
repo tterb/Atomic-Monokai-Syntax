@@ -4,25 +4,35 @@
 
 <p align="right">
     <a href="https://opensource.org/licenses/MIT">
-		<img src="https://img.shields.io/apm/l/atomic-monokai-syntax.svg?" height="21" title="License">&nbsp;&nbsp;
-	</a>
-	<a href="https://atom.io/themes/atomic-monokai-syntax">
-		<img src="https://img.shields.io/apm/v/atomic-monokai-syntax.svg?" height="21" title="Version">&nbsp;&nbsp;
-	</a>
+	<img src="https://img.shields.io/apm/l/atomic-monokai-syntax.svg?" height="21" title="License">&nbsp;&nbsp;
+    </a>
+    <a href="https://atom.io/themes/atomic-monokai-syntax">
+	<img src="https://img.shields.io/apm/v/atomic-monokai-syntax.svg?" height="21" title="Version">&nbsp;&nbsp;
+    </a>
     <img src="https://img.shields.io/apm/dm/atomic-monokai-syntax.svg?maxAge=2592000?style=" height="21" title="Downloads">&nbsp;&nbsp;
     <a href="https://atom.io/themes/atomic-monokai-syntax">
-		<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" height="21" title="Version">&nbsp;&nbsp;
-	</a>
+	<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" height="21" title="Version">&nbsp;&nbsp;
+    </a>
 </p>
 
-  As a long-time Sublime Text user, I've recently transitioned to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="24" height="24"/> [**Atom**](https://atom.io/) as my go-to code editor, and while I enjoy many of it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects. I'm currently still working to improve the syntax-highlighting for individual languages, so feel free to submit any languages you would like to see improved.  
-  ***Update:*** I'm currently also developing complimentary UI-theme for this syntax-theme, so if you like this theme definitely check out [**Atomic Design**](https://atom.io/themes/atomic-design-ui).
-
-  <br>
-    <p align="center">
-    <img src="https://cloud.githubusercontent.com/assets/16360374/17991247/af222646-6af1-11e6-9f00-61c81f9984e6.png" width="950" title="Screenshot">
-    </p>
 <br>
+<p align="center">
+    <img src="https://cloud.githubusercontent.com/assets/16360374/17991247/af222646-6af1-11e6-9f00-61c81f9984e6.png" width="950" title="Screenshot">
+</p>
+<br>
+
+## Description
+  As a long-time Sublime Text user, I've recently transitioned to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="24" height="24"/> [**Atom**](https://atom.io/) as my go-to code editor, and while I enjoy many of it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects. I'm currently still working to improve the syntax-highlighting for individual languages, so feel free to submit any languages you would like to see improved.  
+  ***Update:*** I'm also currently developing a complimentary UI for this syntax-theme. So if you like this package, definitely check out [**Atomic Design**](https://atom.io/themes/atomic-design-ui).
+
+**In Progress:**
+
+  * Working to improve syntax-highlighting for an expanding collection of languages.
+
+<br>
+*Keep in mind, this is my first attempt at creating a syntax theme for Atom, so if there are any issues please feel free to let me know and I'll do my best to fix them.*
+<br>
+__________________________________________________________________________________________________________________
 
 ## Install:
   This repository is distributed with [*apm*](https://atom.io/themes). After [installing apm](https://github.com/atom/apm#installing), you can install the syntax theme with this command.
@@ -30,14 +40,6 @@
 ```
 $ apm install atomic-monokai-syntax
 ```
-<br>
-__________________________________________________________________________________________________________________
-## In Progress:
-
-  * Still working to improve syntax-highlighting for an expansive collection of languages.
-
-<br>
-*Keep in mind, this is my first attempt at creating a syntax theme for Atom, so if there are any issues please feel free to let me know and I'll do my best to fix them.*
 <br>
 __________________________________________________________________________________________________________________
 
