@@ -21,7 +21,7 @@
 </p>
 <br>
 
-## Description
+## Description:
   As a long-time Sublime Text user, I've recently transitioned to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="24" height="24"/> [**Atom**](https://atom.io/) as my go-to code editor, and while I enjoy many of it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects. I'm currently still working to improve the syntax-highlighting for individual languages, so feel free to submit any languages you would like to see improved.  
   ***Update:*** I'm also currently developing a complimentary UI for this syntax-theme. So if you like this package, definitely check out [**Atomic Design**](https://atom.io/themes/atomic-design-ui).
 
@@ -43,6 +43,14 @@ $ apm install atomic-monokai-syntax
 <br>
 __________________________________________________________________________________________________________________
 
+## Palette:
+<br>
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/16360374/19216863/5b99db8c-8d82-11e6-88c3-8d95d61e2355.png" height="280" title="Atomic Palette">
+</p>
+
+__________________________________________________________________________________________________________________
+
 ## Screenshots:
 
   * [Java](https://cloud.githubusercontent.com/assets/16360374/17991247/af222646-6af1-11e6-9f00-61c81f9984e6.png)
@@ -60,7 +68,6 @@ ________________________________________________________________________________
   * [***More...***](https://jonsn0w.github.io/projects/2016/08/22/essential-atom-packages.html)
 
 <br>
-
 *For more useful packages, check out my* [***Essential Atom Packages***](https://jonsn0w.github.io/projects/2016/08/22/essential-atom-packages.html), *which I'll continue to keep up to date as I explore and familiarize myself with the editor and it's community.*
 <br>
 __________________________________________________________________________________________________________________
