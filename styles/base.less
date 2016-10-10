@@ -64,6 +64,10 @@ atom-text-editor .search-results .marker.current-result .region,
 .comment {
     color: @gray;
     font-style: italic;
+    &.line.double-slash {
+        color: @gray;
+        font-style: italic;
+    }
     &.block {
         color: @lighter-gray;
         font-style: normal;
@@ -85,6 +89,20 @@ atom-text-editor .search-results .marker.current-result .region,
 .storage {
     color: @blue;
 
+    &.class {
+        &.fixme {
+            color: mix(@orange, @red, 25%) !important;
+            font-style: normal !important;
+        }
+        &.note {
+            color: darken(mix(@blue, @green, 85%), 15%) !important;
+            font-style: normal !important;
+        }
+        &.todo {
+            color: mix(lighten(@green, 8%), @yellow, 80%) !important;
+            font-style: normal !important;
+        }
+    }
     &.modifier {
         color: @magenta;
     }
