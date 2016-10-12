@@ -1,15 +1,59 @@
 // Javascript
 
 .source.js {
-    .entity.name.function {
-        color: @magenta;
+    .constant {
+        &.character.escape {
+            color: @purple;
+        }
+        &.other.character-class.set.regexp {
+            color: @purple;
+        }
     }
 
-    .support.variable {
+    // .entity.name.function {
+    //     color: @green;
+    // }
+
+    .meta {
+        &.arguments {
+            color: @syntax-text-color;
+        }
+        &.delimiter {
+            color: @syntax-text-color;
+        }
+        &.function {
+            color: @green;
+        }
+        &.function-call {
+            color: @blue;
+        }
+        &.method-call {
+            color: @blue;
+        }
+        &.parameter {
+            color: @orange;
+        }
+    }
+
+    .support {
+        &.function {
+            color: @blue;
+        }
+        &.variable {
+            color: @blue;
+        }
+    }
+
+    .string.regexp {
         color: @green;
     }
 
-    .variable.parameter.function {
-        color: @orange;
+    .variable {
+        &.language {
+            color: @orange;
+        }
+        &.parameter.function {
+            color: @orange;
+        }
     }
 }
