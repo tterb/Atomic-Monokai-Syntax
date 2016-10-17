@@ -1,4 +1,4 @@
-<img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" height="60"/>&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/16360374/17991224/87b7c67e-6af1-11e6-9956-f7960d1a3f13.png" height="68"/>
+<img src="https://cloud.githubusercontent.com/assets/16360374/19442102/035681de-943d-11e6-8ebf-f57a331692e8.png" height="67"/>
 ------------------------------------------------------------------------------------------------------------------------
 ####&nbsp;&nbsp;&nbsp; A Monokai inspired syntax-highlighting theme for Atom
 
