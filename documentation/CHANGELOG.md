@@ -1,6 +1,16 @@
 # Change Log
 <br>  
 
+## Version 1.1.2
+
+   * Added syntax-highlighting for MIPS assembly
+   * Added highlighting for TODO, NOTE, & FIXME tags
+   * Improved syntax-highlighting for CSS JavaScript, HTML, GFM, and C++
+   * Improve gutter styling modifications
+   * Removed unnecessary color variables
+
+------------------------------------------------------------------------------------------------------------------------  
+
 ## Version 1.1.1
 
    * Improved syntax-highlighting for JavaScript, C#, GFM, and Lua
