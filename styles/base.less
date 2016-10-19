@@ -70,7 +70,7 @@ atom-text-editor .search-results .marker.current-result .region,
         font-style: italic;
     }
     &.block {
-        color: @lighter-gray;
+        color: darken(@lighter-gray, 5%);
         font-style: normal;
     }
 }
@@ -281,25 +281,26 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .storage {
     color: @blue;
-
     &.class {
         &.fixme {
-            color: mix(@orange, @red, 25%) !important;
+            color: darken(@red, 4%) !important;
             font-style: normal !important;
+            font-weight: 600 !important;
         }
         &.note {
-            color: darken(mix(@blue, @green, 85%), 15%) !important;
+            color: darken(mix(blue, @green, 55%), 2%) !important;
             font-style: normal !important;
+            font-weight: 600 !important;
         }
         &.todo {
-            color: mix(lighten(@green, 8%), @yellow, 80%) !important;
+            color: mix(@green, @yellow, 50%) !important;
             font-style: normal !important;
+            font-weight: 600 !important;
         }
     }
     &.modifier {
         color: @magenta;
     }
-
     &.type {
         color: @blue;
 
