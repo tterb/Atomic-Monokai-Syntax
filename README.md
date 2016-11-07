@@ -44,7 +44,7 @@ $ apm install atomic-monokai-syntax
 __________________________________________________________________________________________________________________
 
 ## Palette:
-  
+
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/16360374/19216863/5b99db8c-8d82-11e6-88c3-8d95d61e2355.png" height="280" title="Atomic Palette">
 </p>  
@@ -64,6 +64,7 @@ ________________________________________________________________________________
 ## Other Packages:
 
   * [**Minimap**](https://atom.io/packages/minimap) - featured in the above screenshot, *Minimap* applies a "*Sublime-esque*" view to the right-side of the frame.
+  * [**Toolbar**](https://atom.io/packages/tool-bar) - adds a customizable toolbar to your Atom editor, allowing easy access to all  your most used commands.  
   * [**Project Manager**](https://atom.io/packages/project-manager) - delivers a familiar workflow for navigating multiple projects and project-specific settings.
   * [**Highlight Selected**](https://atom.io/packages/highlight-selected) - highlights all instances of the currently selected element within the open file.
   * [***More...***](https://jonsn0w.github.io/projects/2016/08/22/essential-atom-packages.html)
