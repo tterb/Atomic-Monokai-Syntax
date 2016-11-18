@@ -1,6 +1,15 @@
 # Change Log
 <br>  
 
+## Version 1.1.3
+
+   * Improved git-status integrations and styling
+   * Added minor modifications to gutter styling
+   * Improved integration for common packages
+   * Added minor changes to base color palette
+   * Improved Markdown/GFM syntax-highlighting
+------------------------------------------------------------------------------------------------------------------------
+
 ## Version 1.1.2
 
    * Added syntax-highlighting for MIPS assembly
