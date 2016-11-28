@@ -1,84 +1,96 @@
 // CSS
 
-.entity {
-    &.name.tag.css {
-        color: @green;
-    }
-    &.other.attribute-name {
-        font-weight: normal !important;
-        &.class {
-            &.css {
-                color: @magenta;
-            }
-            &.mixin.css {
-                color: @green;
-            }
-        }
-        &.id.css {
-            color: @magenta;
-            font-weight: bold;
-        }
-        &.parent-selector.css {
-            color: @purple;
-        }
-        &.pseudo-element.css {
-            color: @magenta;
-        }
-    }
+.source.css {
+	.entity {
+    	&.name.tag {
+        	color: @green;
+    	}
+    	&.other.attribute-name {
+        	font-weight: normal !important;
+        	&.class {
+            	color: @magenta;
+            	&.mixin {
+                	color: @green;
+            	}
+        	}
+        	&.id {
+            	color: @magenta;
+            	font-weight: bold;
+        	}
+        	&.parent-selector {
+            	color: @purple;
+        	}
+        	&.pseudo-element {
+            	color: @magenta;
+        	}
+    	}
+	}
+
+	.constant {
+    	&.property-value {
+        	color: @green;
+    	}
+	}
+
+	.keyword.control {
+		color: @magenta;
+		&.logical.operator {
+			color: @blue;
+		}
+	}
+
+	.meta {
+	    .at-rule.import {
+	        color: @orange;
+	    }
+	    .property-list {
+	        color: @blue;
+	    }
+	}
+
+	.punctuation {
+	    &.section {
+	        color: @syntax-text-color;
+	    }
+	    &.definition.entity {
+	        color: @blue;
+	    }
+	    &.separator.key-value {
+	        color: @blue;
+	    }
+	}
+
+	.support {
+	    &.function.any-method.builtin {
+	        color: @green;
+	    }
+	    &.type.property-name {
+	        color: @syntax-text-color;
+	    }
+	}
+
+	.variable {
+	    &.parameter.misc {
+	        color: @blue;
+	    }
+	}
 }
 
-.constant {
-    &.property-value.css {
-        color: @green;
-    }
-}
 
 .keyword.control {
-    &.import.option.less {
+    &.at-rule.import.less {
         color: @purple;
     }
 }
 
-.meta {
-    .at-rule.import.css {
-        color: @orange;
-    }
-    .property-list.css {
-        color: @blue;
-    }
-}
-
 .punctuation {
-    &.section.css {
-        color: @syntax-text-color;
-    }
-    &.definition.entity.css {
-        color: @blue;
-    }
     &.definition.keyword.less {
         color: @orange;
-    }
-    &.separator.key-value.css {
-        color: @blue;
     }
 }
 
 .support {
-    &.function.any-method.builtin {
-        &.css {
-            color: @green;
-        }
-        &.less {
-            color: @magenta;
-        }
-    }
-    &.type.property-name.css {
-        color: @syntax-text-color;
-    }
-}
-
-.variable {
-    &.parameter.misc.css {
-        color: @blue;
+    &.function.any-method.builtin.less {
+        color: @magenta;
     }
 }
