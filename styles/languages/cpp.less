@@ -28,10 +28,29 @@
     }
 }
 
-meta.scope.prerequisites.makefile {
-	color: @magenta;
-}
 
-.support.function.any-method.c {
-    color: @blue;
+// Makefile
+.source.makefile {
+
+	.entity.name.function.target {
+		color: @magenta;
+		font-weight: bold;
+	}
+
+    .meta.scope {
+        &.prerequisites {
+    	    color: @green;
+        }
+		&.recipe {
+			color: @blue;
+			font-weight: light;
+		}
+        &.target {
+            color: @orange;
+        }
+    }
+
+    .punctuation.separator.key-value {
+        color: @purple;
+    }
 }
