@@ -1,0 +1,60 @@
+// Shell
+
+.source.shell {
+
+	.comment.line.number-sign.shebang {
+		font-style: italic;
+	}
+
+	.keyword {
+		&.control {
+			color: @magenta;
+			font-weight: bold;
+		}
+		&.operator {
+			font-weight: bold;
+			&.logical {
+				font-weight: normal;
+			}
+		}
+	}
+
+	.punctuation {
+		&.definition {
+			&.string {
+				color: @purple;
+			}
+			&.variable {
+				color: @purple;
+			}
+		}
+	}
+
+	.string {
+		&.interpolated.dollar {
+			color: @syntax-text-color;
+		}
+		&.other.math {
+			color: @syntax-text-color;
+		}
+	}
+
+	.support {
+		&.function.builtin {
+			color: @green;
+			font-weight: normal;
+		}
+	}
+
+	.variable {
+		&.other {
+			&.normal {
+				color: @blue;
+			}
+			&.special {
+				color: @green;
+			}
+		}
+	}
+
+}
