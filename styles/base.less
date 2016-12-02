@@ -195,6 +195,12 @@ atom-text-editor .search-results .marker.current-result .region,
     }
 }
 
+
+.markup.underline.link.https.hyperlink {
+	color: @green;
+}
+
+
 .meta {
     &.call {
         color: @syntax-text-color;
@@ -230,7 +236,7 @@ atom-text-editor .search-results .marker.current-result .region,
 .punctuation {
     &.definition {
         &.comment {
-            color: @gray;
+			color: darken(@lighter-gray, 8%);
         }
         &.string {
             color: @yellow;
