@@ -26,6 +26,11 @@
     &.heading {
         color: @magenta;
         font-weight: bold;
+		font-size: 16px;
+		line-height: 20px;
+		&.heading-4 {
+			font-size: 15px;
+		}
     }
 
     &.italic {
@@ -34,7 +39,7 @@
     }
 
     &.raw {
-        color: @green;
+        color: @orange;
     }
 
     &.table {
@@ -73,6 +78,14 @@
         color: @blue;
         font-weight: bold;
     }
+}
+
+.constant.character.entity.gfm {
+    color: @green;
+}
+
+.linebreak.gfm {
+    border-bottom: 1px inset darken(@gray, 10%);
 }
 
 .variable {

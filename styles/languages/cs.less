@@ -17,6 +17,19 @@
     }
 
     .meta {
+        color: @syntax-text-color;
+        &.class {
+            color: @syntax-text-color;
+        }
+        &.method {
+            color: @green;
+            &.body {
+                color: @syntax-text-color;
+            }
+            &.identifier {
+                color: @orange;
+            }
+        }
         &.method-call {
             color: @blue;
         }

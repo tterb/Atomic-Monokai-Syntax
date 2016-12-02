@@ -10,8 +10,29 @@
         color: @purple;
     }
 
+    .keyword {
+        &.control{
+            color: @magenta;
+            &.regexp-option {
+                color: @green;
+                font-style: italic;
+            }
+        }
+    }
+
+    .punctuation.definition {
+        &.variable {
+            color: @purple;
+        }
+    }
+
+
     .string.regexp {
         color: @orange;
+    }
+
+    .support.function {
+        color: @green;
     }
 
     .keyword {

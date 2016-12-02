@@ -3,15 +3,67 @@
 .source.cpp {
 
     .entity.name {
+        &.function {
+            color: @green;
+            &.preprocessor {
+                color: @syntax-text-color;
+            }
+        }
         &.type {
             color: @green;
             font-weight: normal !important;
         }
     }
 
+    .keyword {
+		&.control.directive {
+			color: @magenta;
+		}
+		&.operator {
+	        color: @magenta;
+	        &.bitwise.shift {
+	            font-weight: 900;
+	        }
+		}
+    }
+
+    .meta {
+        &.block {
+            color: @syntax-text-color;
+        }
+		&.class-struct-block {
+			color: @syntax-text-color;
+		}
+        &.function {
+            color: @syntax-text-color;
+        }
+        &.parens {
+            color: @orange;
+        }
+		&.preprocessor {
+			color: @syntax-text-color;
+		}
+		&.using-namespace-declaration {
+			color: @syntax-text-color;
+		}
+    }
+
+    .punctuation {
+        color: @syntax-text-color;
+		&.definition.directive {
+			color: @purple;
+		}
+        &.section.parens {
+            color: @syntax-text-color;
+        }
+    }
+
     .storage {
         &.type {
             color: @blue;
+            &.class {
+	            color: @magenta;
+			}
         }
     }
 
@@ -20,13 +72,9 @@
             color: @blue;
         }
     }
+
 }
 
-.entity.name {
-    &.function.c {
-        color: @green;
-    }
-}
 
 
 // Makefile
@@ -39,10 +87,10 @@
 
     .meta.scope {
         &.prerequisites {
-    	    color: @green;
+    	    color: @blue;
         }
 		&.recipe {
-			color: @blue;
+			color: @syntax-text-color;
 			font-weight: light;
 		}
         &.target {
@@ -53,4 +101,5 @@
     .punctuation.separator.key-value {
         color: @purple;
     }
+
 }

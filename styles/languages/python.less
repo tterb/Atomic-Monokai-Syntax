@@ -1,41 +1,55 @@
 // Python
 
 .source.python {
+
+    .entity.name.function {
+        color: @blue;
+    }
+
     .keyword {
-        &.operator.logical {
-            color: @blue;
+        &.control.import {
+            color: @purple;
+            &.from {
+                color: @magenta;
+            }
+        }
+        &.operator {
+            &.comparison {
+                font-weight: bold;
+            }
+            &.logical {
+                color: @blue;
+            }
         }
         &.other {
             color: @blue;
         }
     }
 
+    .meta {
+        &.function {
+            color: @magenta;
+        }
+    }
+
+    .support {
+        &.function.builtin {
+            color: @green;
+        }
+    }
+
+    .storage.type.function {
+        color: @magenta;
+        font-weight: bold;
+    }
+
     .variable {
         color: @blue;
         font-style: italic;
         &.parameter {
-            color: @orange;
+            color: @green;
             font-style: normal;
         }
     }
-}
 
-.entity.name.function.python {
-    color: @green;
-}
-
-.meta {
-    &.function.python {
-        color: @magenta;
-    }
-}
-
-.support {
-    &.function.builtin.python {
-        color: @purple;
-    }
-}
-
-.storage.type.function.python {
-    color: @blue;
 }

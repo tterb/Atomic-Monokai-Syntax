@@ -20,8 +20,11 @@
         	&.parent-selector {
             	color: @purple;
         	}
+			&.pseudo-class {
+            	color: @orange;
+        	}
         	&.pseudo-element {
-            	color: @magenta;
+            	color: @purple;
         	}
     	}
 	}
@@ -32,10 +35,18 @@
     	}
 	}
 
-	.keyword.control {
-		color: @magenta;
-		&.logical.operator {
-			color: @blue;
+	.keyword {
+		&.control {
+			color: @magenta;
+			&.logical.operator {
+				color: @blue;
+			}
+		}
+		&&.other {
+			&.important {
+				color: @purple;
+				font-weight: bold;
+			}
 		}
 	}
 
@@ -52,9 +63,14 @@
 	    &.section {
 	        color: @syntax-text-color;
 	    }
-	    &.definition.entity {
-	        color: @blue;
-	    }
+		&.definition {
+			&.entity {
+	        	color: @blue;
+			}
+			&.keyword {
+				color: @magenta;
+			}
+		}
 	    &.separator.key-value {
 	        color: @blue;
 	    }
