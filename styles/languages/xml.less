@@ -1,0 +1,34 @@
+// XML
+
+.source.xml {
+
+	.entity {
+		&.other {
+			&.attribute-name {
+				color: @blue;
+			}
+		}
+		&.tag.name {
+			color: @magenta;
+			&.localname {
+				color: @purple;
+			}
+		}
+	}
+
+	.meta.tag {
+		color: @purple;
+		&.preprocessor {
+			color: @magenta;
+		}
+	}
+
+	.punctuation.definition.tag {
+		color: @green;
+	}
+}
+
+
+.entity.name.tag.localname.xml {
+	color: @magenta;
+}
