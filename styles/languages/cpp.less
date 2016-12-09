@@ -50,8 +50,16 @@
 
     .punctuation {
         color: @syntax-text-color;
-		&.definition.directive {
-			color: @purple;
+		&.definition {
+			&.comment {
+				color: darken(@lighter-gray, 8%);
+			}
+            &.directive {
+			    color: @purple;
+            }
+            &.string {
+                color: @yellow;
+            }
 		}
         &.section.parens {
             color: @syntax-text-color;
