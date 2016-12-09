@@ -15,7 +15,7 @@ atom-text-editor, :host {
     .invisible-character {
         color: @syntax-invisible-character-color;
     }
-
+	
     .gutter {
         background-color: darken(@syntax-background-color, 1.35%);
         color: @syntax-gutter-text-color;
@@ -107,13 +107,13 @@ atom-text-editor .search-results .marker.current-result .region,
     color: @blue;
 
     &.character.escape {
-        color: @blue;
+        color: @purple;
     }
     &.numeric {
         color: @purple;
     }
     &.language {
-        color: @purple;
+        color: @orange;
         font-style: italic;
     }
     &.other.color {
@@ -236,10 +236,10 @@ atom-text-editor .search-results .marker.current-result .region,
 .punctuation {
     &.definition {
         &.comment {
-			color: darken(@lighter-gray, 8%);
+			color: darken(@lighter-gray, 8%) !important;
         }
         &.string {
-            color: @yellow;
+            color: @yellow !important;
         }
         &.variable {
             color: @orange;
