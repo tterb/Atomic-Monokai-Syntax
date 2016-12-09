@@ -23,7 +23,7 @@
 
 ## Description:
   As a long-time Sublime Text user, I've made the transition to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="24" height="24"/> **[Atom]** as my go-to code editor, and while I enjoy it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects. I'm actively working to improve the syntax-highlighting for individual languages, so feel free to submit any languages you would like to see improved.  
-  ***Update:*** I've recently developed a complimentary UI for this syntax-theme, so if you like this package, check out **[Atomic Design UI]**.
+  ***Update:*** I've also developed a complimentary UI for this syntax-theme, so if you like this package, check out **[Atomic Design UI]**.
 
 **In Progress:**
 
@@ -35,7 +35,7 @@
 __________________________________________________________________________________________________________________
 
 ## Install:
-  This repository is distributed using *[apm]*. After [installing apm], you can install the syntax theme with the command:
+  This package is distributed using *[apm]*. After [installing apm], you can install the syntax theme with the command:
 
 ```
 $ apm install atomic-monokai-syntax
