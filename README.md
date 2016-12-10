@@ -1,17 +1,17 @@
-<img src="https://cloud.githubusercontent.com/assets/16360374/21070257/355d0990-be37-11e6-8461-827b5c2dfe6d.png" height="67"/>
+<img src="https://cloud.githubusercontent.com/assets/16360374/21070257/355d0990-be37-11e6-8461-827b5c2dfe6d.png" height="90"/>
 ------------------------------------------------------------------------------------------------------------------------
 ####&nbsp;&nbsp;&nbsp; A Monokai inspired syntax-highlighting theme for Atom
 
 <p align="right">
     <a href="https://atom.io/themes/atomic-monokai-syntax">
-	<img src="https://img.shields.io/apm/v/atomic-monokai-syntax.svg?" height="21" title="Version">&nbsp;&nbsp;
+	<img src="https://img.shields.io/apm/v/atomic-monokai-syntax.svg?" height="21" title="Version">&nbsp;
     </a>  
     <a href="https://opensource.org/licenses/MIT">
-	<img src="https://img.shields.io/apm/l/atomic-monokai-syntax.svg?" height="21" title="License">&nbsp;&nbsp;
+	<img src="https://img.shields.io/apm/l/atomic-monokai-syntax.svg?" height="21" title="License">&nbsp;
     </a>  
-    <img src="https://img.shields.io/apm/dm/atomic-monokai-syntax.svg?maxAge=2592000?style=" height="21" title="Downloads">&nbsp;&nbsp;
+    <img src="https://img.shields.io/apm/dm/atomic-monokai-syntax.svg?maxAge=2592000?style=" height="21" title="Downloads">&nbsp;
     <a href="https://atom.io/themes/atomic-monokai-syntax">
-	<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" height="21" title="Open-source">&nbsp;&nbsp;
+	<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" height="21" title="Open-source">&nbsp;
     </a>
 </p>
 
@@ -46,7 +46,7 @@ ________________________________________________________________________________
 ## Palette:
 
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/16360374/19216863/5b99db8c-8d82-11e6-88c3-8d95d61e2355.png" height="220" title="Atomic Palette">
+  <img src="https://cloud.githubusercontent.com/assets/16360374/19216863/5b99db8c-8d82-11e6-88c3-8d95d61e2355.png" height="260" title="Atomic Palette">
 </p>  
 
 <br>
