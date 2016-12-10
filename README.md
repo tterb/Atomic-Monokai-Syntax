@@ -1,4 +1,4 @@
-<img src="https://cloud.githubusercontent.com/assets/16360374/19442102/035681de-943d-11e6-8ebf-f57a331692e8.png" height="67"/>
+<img src="https://cloud.githubusercontent.com/assets/16360374/21070257/355d0990-be37-11e6-8461-827b5c2dfe6d.png" height="67"/>
 ------------------------------------------------------------------------------------------------------------------------
 ####&nbsp;&nbsp;&nbsp; A Monokai inspired syntax-highlighting theme for Atom
 
@@ -17,15 +17,15 @@
 
 <br>
 <p align="center">
-    <img src="https://cloud.githubusercontent.com/assets/16360374/17991247/af222646-6af1-11e6-9f00-61c81f9984e6.png" width="950" title="Screenshot">
+    <img src="https://cloud.githubusercontent.com/assets/16360374/21070482/aca5e7a8-be3a-11e6-923f-dda83e12579b.png" width="950" title="Screenshot">
 </p>
 <br>
 
-## Description:
-  As a long-time Sublime Text user, I've made the transition to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="24" height="24"/> **[Atom]** as my go-to code editor, and while I enjoy it's more *hackable* aspects, I had been unable to find a *"monokai"* syntax theme that felt familiar amongst the available prospects. I'm actively working to improve the syntax-highlighting for individual languages, so feel free to submit any languages you would like to see improved.  
-  ***Update:*** I've also developed a complimentary UI for this syntax-theme, so if you like this package, check out **[Atomic Design UI]**.
+## Description:  
+  As a long-time Sublime Text user, I've made the transition to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="20"/> **[Atom]** as my go-to code editor, and while I enjoy it's more *hackable* aspects, I had been unable to find a monokai syntax theme that felt familiar amongst the available prospects. I'm actively working to improve the syntax-highlighting for individual languages, so feel free to submit any languages you would like to see improved.  
+  ***Update:*** I've also developed a complimentary UI for this syntax-theme, so if you like this package, check out **[Atomic Design UI]**.  
 
-**In Progress:**
+**In Progress:**  
 
   * Working to improve syntax-highlighting for an expanding collection of languages.
 
@@ -46,7 +46,7 @@ ________________________________________________________________________________
 ## Palette:
 
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/16360374/19216863/5b99db8c-8d82-11e6-88c3-8d95d61e2355.png" height="280" title="Atomic Palette">
+  <img src="https://cloud.githubusercontent.com/assets/16360374/19216863/5b99db8c-8d82-11e6-88c3-8d95d61e2355.png" height="220" title="Atomic Palette">
 </p>  
 
 <br>
@@ -64,12 +64,12 @@ ________________________________________________________________________________
 ## Other Packages:
 
   * **[Minimap]** - featured in the above screenshot, *Minimap* applies a "*Sublime-esque*" view to the right-side of the frame.
-  * **[Toolbar]** - adds a customizable toolbar to your Atom editor, allowing easy access to all  your most used commands.  
+  * **[Toolbar]** - adds a customizable toolbar to your Atom editor, allowing easy access to all  your most used commands.
   * **[Project Manager]** - delivers a familiar workflow for navigating projects and project-specific settings.
   * **[Highlight Selected]** - highlights all instances of the selected element within the open file.
-  * ***[More...]***
+  * ***[More...]***  
 
-<br>
+<br>  
 *For more useful packages, check out my* ***[Essential Atom Packages]***, *which I'll continue to keep up to date as I explore and familiarize myself with the editor and it's community.*
 <br>
 __________________________________________________________________________________________________________________
@@ -96,6 +96,7 @@ ________________________________________________________________________________
 [Settings-View]: https://cloud.githubusercontent.com/assets/16360374/18231373/3048eb88-726d-11e6-9ae8-a87e24c11f67.png
 
 [Minimap]: https://atom.io/packages/minimap
+[Toolbar]: https://atom.io/packages/toolbar
 [Project Manager]: https://atom.io/packages/project-manager
 [Highlight Selected]: https://atom.io/packages/highlight-selected
 [More...]: https://jonsn0w.github.io/projects/2016/08/22/essential-atom-packages.html
