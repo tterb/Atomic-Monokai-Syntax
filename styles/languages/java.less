@@ -16,6 +16,17 @@
         }
     }
 
+    .variable {
+        &.language.wildcard {
+            color: @purple;
+        }
+        &.other.object {
+            color: @blue;
+            &.property {
+                color: @syntax-text-color;
+            }
+        }
+    }
 }
 
 .source.java-properties {

@@ -6,7 +6,7 @@
             color: @magenta;
         }
         &.operator {
-            color: @blue;
+            color: @magenta;
         }
     }
     .meta.function {
@@ -15,8 +15,14 @@
     .entity.name.function {
         color: @blue;
     }
-    .support.function.library {
-        color: @green;
+    .support.function {
+		color: @orange;
+		&.any-method {
+			color: @blue;
+		}
+		&.library {
+        	color: @green;
+		}
     }
     .variable.other.lua {
         color: @green;

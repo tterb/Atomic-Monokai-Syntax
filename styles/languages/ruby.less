@@ -14,8 +14,19 @@
         color: @orange;
     }
 
-    .punctuation.definition.variable {
-        color: @blue;
+    .punctuation {
+        &.definition.variable {
+            color: @blue;
+        }
+        &.separator.key-value {
+            color: @orange;
+        }
+    }
+
+    .string.regexp {
+        .source.ruby.embedded {
+            color: @orange;
+        }
     }
 
     .support.function.kernel {
@@ -34,11 +45,5 @@
                 color: @green;
             }
         }
-    }
-}
-
-.string.regexp {
-    .source.ruby.embedded {
-        color: @orange;
     }
 }
