@@ -1,6 +1,6 @@
-<img src="https://cloud.githubusercontent.com/assets/16360374/21070257/355d0990-be37-11e6-8461-827b5c2dfe6d.png" height="90"/>
+<img src="https://cloud.githubusercontent.com/assets/16360374/21070257/355d0990-be37-11e6-8461-827b5c2dfe6d.png" height="70"/>
 ------------------------------------------------------------------------------------------------------------------------
-####&nbsp;&nbsp;&nbsp; A Monokai inspired syntax-highlighting theme for Atom
+####&nbsp;&nbsp;&nbsp; A Monokai inspired syntax-theme for Atom
 
 <p align="right">
     <a href="https://atom.io/themes/atomic-monokai-syntax">
@@ -17,12 +17,14 @@
 
 <br>
 <p align="center">
-    <img src="https://cloud.githubusercontent.com/assets/16360374/21070482/aca5e7a8-be3a-11e6-923f-dda83e12579b.png" width="950" title="Screenshot">
+    <img src="https://cloud.githubusercontent.com/assets/16360374/22630289/2ad99482-ebac-11e6-976a-4e9e5e439473.png" width="800" title="Screenshot">
 </p>
 <br>
 
-## Description:  
-  As a long-time Sublime Text user, I've made the transition to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="20"/> **[Atom]** as my go-to code editor, and while I enjoy it's more *hackable* aspects, I had been unable to find a monokai syntax theme that felt familiar amongst the available prospects. I'm actively working to improve the syntax-highlighting for individual languages, so feel free to submit any languages you would like to see improved.  
+<!-- ## Description:   -->
+<img src="https://cloud.githubusercontent.com/assets/16360374/22630325/e71b3d12-ebac-11e6-864a-de9714611240.png" width="900" title="Description">  
+
+  As a long-time Sublime Text user, I've made the transition to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="20"/> **[Atom]** as my go-to code editor, and while I enjoy it's more *hackable* aspects, I had been unable to find a monokai syntax-theme that felt familiar amongst the available prospects. I'm actively working to improve the syntax-highlighting for individual languages, so feel free to submit any languages you would like to see improved.  
   ***Update:*** I've also developed a complimentary UI for this syntax-theme, so if you like this package, check out **[Atomic Design UI]**.  
 
 **In Progress:**  
@@ -32,27 +34,35 @@
 <br>
 *Keep in mind, this is my first attempt at creating a syntax theme for Atom, so if there are any issues please feel free to let me know and I'll do my best to fix them.*
 <br>
-__________________________________________________________________________________________________________________
 
-## Install:
-  This package is distributed using *[apm]*. After [installing apm], you can install the syntax theme with the command:
+__________________________________________________________________________________________________________________  
+
+<!-- ## Install: -->
+<img src="https://cloud.githubusercontent.com/assets/16360374/22630327/e71bd0c4-ebac-11e6-956d-8b1e8da21d1b.png" width="900" title="Install">  
+
+  This package is distributed using *[apm]*. After [installing apm], you can install the syntax theme with the command:  
 
 ```
 $ apm install atomic-monokai-syntax
 ```
 <br>
-__________________________________________________________________________________________________________________
 
-## Palette:
+__________________________________________________________________________________________________________________  
+
+<!-- ## Palette: -->
+  <img src="https://cloud.githubusercontent.com/assets/16360374/22630326/e71b969a-ebac-11e6-8452-727e60f89d24.png" width="900" title="Palette">  
 
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/16360374/19216863/5b99db8c-8d82-11e6-88c3-8d95d61e2355.png" height="260" title="Atomic Palette">
+  <!-- <img src="https://cloud.githubusercontent.com/assets/16360374/19216863/5b99db8c-8d82-11e6-88c3-8d95d61e2355.png" height="260" title="Atomic Palette"> -->
+  <img src="https://cloud.githubusercontent.com/assets/16360374/22630170/8218b992-eba9-11e6-9b7c-53ddbe10eb03.png" width="550" title="Atomic Palette"/>
 </p>  
 
 <br>
-__________________________________________________________________________________________________________________
 
-## Screenshots:
+__________________________________________________________________________________________________________________  
+
+<!-- ## Screenshots: -->
+<img src="https://cloud.githubusercontent.com/assets/16360374/22630324/e71af8ac-ebac-11e6-9458-fe0301d4c028.png" width="900" title="Screenshot">  
 
   * [Java]
   * [HTML]
