@@ -31,19 +31,7 @@
 *Keep in mind, this is my first attempt at creating a syntax theme for Atom, so if there are any issues please feel free to let me know and I'll do my best to fix them.*
 <br>
 
-________________________________________________________________________________  
-
-<!-- ## Install: -->
-<img src="https://cloud.githubusercontent.com/assets/16360374/22630327/e71bd0c4-ebac-11e6-956d-8b1e8da21d1b.png" width="900" title="Install">  
-
-  This package is distributed using *[apm]*. After [installing apm], you can install the syntax theme with the command:  
-
-```
-$ apm install atomic-monokai-syntax
-```
-<!-- <br> -->
-
-<!-- ________________________________________________________________________________   -->
+ <!-- ________________________________________________________________________________   -->
 
 <!-- ## Palette: -->
   <!-- <img src="https://cloud.githubusercontent.com/assets/16360374/22630326/e71b969a-ebac-11e6-8452-727e60f89d24.png" width="900" title="Palette">   -->
@@ -52,8 +40,6 @@ $ apm install atomic-monokai-syntax
   <img src="https://cloud.githubusercontent.com/assets/16360374/19216863/5b99db8c-8d82-11e6-88c3-8d95d61e2355.png" height="260" title="Atomic Palette">
   <img src="https://cloud.githubusercontent.com/assets/16360374/22630170/8218b992-eba9-11e6-9b7c-53ddbe10eb03.png" width="475" title="Atomic Palette"/>
 </p>   -->
-
-
 
 ________________________________________________________________________________  
 
@@ -85,6 +71,18 @@ attention to be given to ensuring proper highlighting for each supported languag
 *Atomic Monokai* is being actively developed in order to improve <br>
  syntax-highlighting for an increasing collection of languages.
 </p>
+<br>
+________________________________________________________________________________  
+
+<!-- ## Install: -->
+<img src="https://cloud.githubusercontent.com/assets/16360374/22630327/e71bd0c4-ebac-11e6-956d-8b1e8da21d1b.png" width="900" title="Install">  
+
+  This package is distributed using *[apm]*. After [installing apm], you can install the syntax theme with the command:  
+
+```
+$ apm install atomic-monokai-syntax
+```
+
 ________________________________________________________________________________  
 
 <!-- ## Screenshots: -->
@@ -117,6 +115,7 @@ ________________________________________________________________________________
         <img src="https://badges.gitter.im/Atomic-Monokai/Lobby.svg" height="21" title="Gitter">
     </a>
 </p>
+
 
 
 <!-------------------------------- Links -------------------------------------->
