@@ -4,10 +4,16 @@
 
 ## Version 1.1.4
 
-   * Improved C++, C#, CSS, JSON, Perl, and Python syntax-highlighting
-   * Added visible linebreaks to Markdown/GFM highlighting
+   * Improved selection visibility
+   * Improved link and comment highlighting
+   * Improved C++, C#, CSS, GFM, HTML, and Java syntax-highlighting
+   * Added visible line-breaks to Markdown/GFM highlighting
    * Added Makefile syntax-highlighting
-   * Added syntax-highlighting for Bash shell scripts
+   * Improved JSON, Perl, Python, and Ruby syntax-highlighting
+   * Added syntax-highlighting for Go, PHP, SQL, XML, Makefile, and Shell scripts
+   * Minor modifications made to color palette
+   * Improved git-status gutter highlighting
+
 --------------------------------------------------------------------------------
 
 ## Version 1.1.3
@@ -17,6 +23,7 @@
    * Improved integration for common packages
    * Added minor changes to base color palette
    * Improved Markdown/GFM syntax-highlighting
+
 --------------------------------------------------------------------------------
 
 ## Version 1.1.2
