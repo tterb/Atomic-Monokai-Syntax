@@ -3,6 +3,10 @@
 .source.rainmeter {
     .option {
         color: @blue;
+        &.include {
+            color: @magenta;
+            font-style: normal;
+        }
     }
     .predefined.section.rainmeter {
         color: @purple;
@@ -14,7 +18,7 @@
     .section {
         color: @magenta;
         &.variable {
-            color: @green;
+            color: @green !important;
         }
     }
     .support {
@@ -33,6 +37,6 @@
         }
     }
     .variable.rainmeter {
-        color: @green;
+        color: @orange;
     }
 }
