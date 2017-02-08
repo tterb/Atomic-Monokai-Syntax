@@ -1,6 +1,6 @@
-<img src="https://cloud.githubusercontent.com/assets/16360374/21070257/355d0990-be37-11e6-8461-827b5c2dfe6d.png" height="70"/>
+<img src="https://cloud.githubusercontent.com/assets/16360374/21070257/355d0990-be37-11e6-8461-827b5c2dfe6d.png" height="80"/>
 ------------------------------------------------------------------------------------------------------------------------  
-####&nbsp;&nbsp;&nbsp; A Monokai inspired syntax-theme for Atom
+#### A refined Monokai-flavored syntax-theme for Atom
 
 <!-- Badges -->
 <p align="right">
@@ -30,16 +30,6 @@
 <br>
 *Keep in mind, this is my first attempt at creating a syntax theme for Atom, so if there are any issues please feel free to let me know and I'll do my best to fix them.*
 <br>
-
- <!-- ________________________________________________________________________________   -->
-
-<!-- ## Palette: -->
-  <!-- <img src="https://cloud.githubusercontent.com/assets/16360374/22630326/e71b969a-ebac-11e6-8452-727e60f89d24.png" width="900" title="Palette">   -->
-
-<!-- <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/16360374/19216863/5b99db8c-8d82-11e6-88c3-8d95d61e2355.png" height="260" title="Atomic Palette">
-  <img src="https://cloud.githubusercontent.com/assets/16360374/22630170/8218b992-eba9-11e6-9b7c-53ddbe10eb03.png" width="475" title="Atomic Palette"/>
-</p>   -->
 
 ________________________________________________________________________________  
 
@@ -71,6 +61,7 @@ attention to be given to ensuring proper highlighting for each supported languag
 *Atomic Monokai* is being actively developed in order to improve <br>
  syntax-highlighting for an increasing collection of languages.
 </p>
+
 <br>
 ________________________________________________________________________________  
 
