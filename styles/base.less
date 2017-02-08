@@ -34,26 +34,29 @@ atom-text-editor, :host {
             }
 
             &.git-line-modified {
-                border: 0;
+                color: @syntax-color-modified;
+                border-left: 1px solid @syntax-color-modified;
                 &.cursor-line {
-                    background:@syntax-gutter-background-selected;
-                    color: @syntax-color-modified;
+                    background: fade(@syntax-color-modified, 40%);
+                    color: darken(@syntax-text-color, 18%);
                     border: 0;
                 }
             }
             &.git-line-added {
-                border: 0;
+                color: @syntax-color-added;
+                border-left: 1px solid @syntax-color-added;
                 &.cursor-line {
-                    color: @syntax-color-added;
-                    background: @syntax-gutter-background-selected;
+                    background: fade(@syntax-color-added, 40%);
+                    color: darken(@syntax-text-color, 14%);
                     border: 0;
                 }
             }
             &.git-line-removed {
-                border: 0;
+                color: @syntax-color-removed;
+                border-left: 1px solid @syntax-color-removed;
                 &.cursor-line {
-                    color: @syntax-color-removed;
-                    background: @syntax-gutter-background-selected;
+                    background: fade(@syntax-color-removed, 40%);
+                    color: darken(@syntax-text-color, 18%);
                     border: 0;
                 }
             }
