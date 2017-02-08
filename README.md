@@ -18,13 +18,13 @@
 
 <!-- Screenshot -->
 <p align="center">
-    <img src="https://cloud.githubusercontent.com/assets/16360374/22630502/33c6ca0c-ebb0-11e6-98c7-226073d7f0e0.png" width="800" title="Screenshot">
+    <img src="https://cloud.githubusercontent.com/assets/16360374/22630811/1d35a420-ebb5-11e6-9c80-05c5a8342146.png" width="800" title="Screenshot">
 </p>
 
 <!-- ## Description:   -->
 <img src="https://cloud.githubusercontent.com/assets/16360374/22630325/e71b3d12-ebac-11e6-864a-de9714611240.png" width="900" title="Description">  
 
-  As a long-time Sublime Text user, I've made the transition to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="20"/> **[Atom]** as my go-to code editor, and while I enjoy it's more *hackable* aspects, I had been unable to find a monokai syntax-theme that felt familiar amongst the available prospects. I'm actively working to improve the syntax-highlighting for individual languages, so feel free to submit any languages you would like to see improvements on.  
+  As a long-time Sublime Text user, I've made the transition to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="20"/> **[Atom]** as my go-to code editor, and while I enjoy it's more *hackable* aspects, I hadn' been unable to find a monokai syntax-theme that felt familiar amongst the available prospects. I'm actively working to improve the syntax-highlighting for individual languages, so feel free to submit any languages you would like to see improvements on.  
   ***Update:*** I've also developed a complimentary UI for this syntax-theme, so if you like this package, check out **[Atomic Design UI]**.  
 
 <br>
@@ -66,7 +66,7 @@ attention to be given to ensuring proper highlighting for each supported languag
 
 <br>
 
-<h3 align="center">Active Developement</h3>  
+<h3 align="center">Active Development</h3>  
 <p align="center">
 *Atomic Monokai* is being actively developed in order to improve <br>
  syntax-highlighting for an increasing collection of languages.
@@ -109,7 +109,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________  
 
 <p align="right">
-     <span class="badge-paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E6RKPR34SH6CU" title="Donate to this project using Paypal">
+     <span class="badge-paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E6RKPR34SH6CU" title="Donate to this project using PayPal">
  <img src="https://img.shields.io/badge/paypal-donate-yellow.svg" height="21" title="Donate"></a></span>&nbsp;&nbsp;
     <a href="https://gitter.im/Atomic-Monokai/Lobby">
         <img src="https://badges.gitter.im/Atomic-Monokai/Lobby.svg" height="21" title="Gitter">
