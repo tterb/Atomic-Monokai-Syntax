@@ -1,4 +1,4 @@
-<img src="https://cloud.githubusercontent.com/assets/16360374/21070257/355d0990-be37-11e6-8461-827b5c2dfe6d.png" height="80"/>
+<img src="https://cloud.githubusercontent.com/assets/16360374/21070257/355d0990-be37-11e6-8461-827b5c2dfe6d.png" height="90"/>
 ------------------------------------------------------------------------------------------------------------------------  
 #### A refined Monokai-flavored syntax-theme for Atom
 
