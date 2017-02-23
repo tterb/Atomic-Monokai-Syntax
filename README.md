@@ -1,5 +1,5 @@
 <img src="https://cloud.githubusercontent.com/assets/16360374/21070257/355d0990-be37-11e6-8461-827b5c2dfe6d.png" height="90"/>
-------------------------------------------------------------------------------------------------------------------------  
+------------------------------------------------------------------------------  
 #### A refined Monokai-flavored syntax-theme for Atom
 
 <!-- Badges -->
@@ -26,19 +26,19 @@
 
   As a long-time Sublime Text user, I've made the transition to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="20"/> **[Atom]** as my go-to code editor, and while I enjoy it's more *hackable* aspects, I hadn' been unable to find a monokai syntax-theme that felt familiar amongst the available prospects. I'm actively working to improve the syntax-highlighting for individual languages, so feel free to submit any languages you would like to see improvements on.  
   ***Update:*** I've also developed a complimentary UI for this syntax-theme, so if you like this package, check out **[Atomic Design UI]**.  
-
 <br>
+
 *Keep in mind, this is my first attempt at creating a syntax theme for Atom, so if there are any issues please feel free to let me know and I'll do my best to fix them.*
 <br>
 
-________________________________________________________________________________  
+______________________________________________________________________________  
 
 <!-- Features -->
 <img src="https://cloud.githubusercontent.com/assets/16360374/22630566/57595f88-ebb1-11e6-835d-e84330b188e3.png" width="900" title="Features">  
 <br>
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/16360374/22630170/8218b992-eba9-11e6-9b7c-53ddbe10eb03.png" width="450" title="Atomic Palette"/>
-</p>  
+</p><br>  
 
 <h3 align="center">The Colors</h3>
 <p align="center">
@@ -58,12 +58,12 @@ attention to be given to ensuring proper highlighting for each supported languag
 
 <h3 align="center">Active Development</h3>  
 <p align="center">
-*Atomic Monokai* is being actively developed in order to improve <br>
- syntax-highlighting for an increasing collection of languages.
+Atomic Monokai is being actively developed in order to improve language-specific <br>
+syntax-highlighting for an increasing collection of programming languages.
 </p>
-
 <br>
-________________________________________________________________________________  
+
+______________________________________________________________________________  
 
 <!-- ## Install: -->
 <img src="https://cloud.githubusercontent.com/assets/16360374/22630327/e71bd0c4-ebac-11e6-956d-8b1e8da21d1b.png" width="900" title="Install">  
@@ -74,7 +74,7 @@ ________________________________________________________________________________
 $ apm install atomic-monokai-syntax
 ```
 
-________________________________________________________________________________  
+______________________________________________________________________________  
 
 <!-- ## Screenshots: -->
 <img src="https://cloud.githubusercontent.com/assets/16360374/22630324/e71af8ac-ebac-11e6-9458-fe0301d4c028.png" width="900" title="Screenshot">  
@@ -84,7 +84,8 @@ ________________________________________________________________________________
   * [Markdown]  
 
 <br>
-________________________________________________________________________________  
+
+______________________________________________________________________________  
 
 ### Other Packages:
 
@@ -97,7 +98,8 @@ ________________________________________________________________________________
 <br>  
 *For more useful packages, check out my* ***[Essential Atom Packages]***, *which I'll continue to keep up to date as I explore and familiarize myself with the editor and it's community.*
 <br>
-________________________________________________________________________________  
+
+______________________________________________________________________________  
 
 <p align="right">
      <span class="badge-paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E6RKPR34SH6CU" title="Donate to this project using PayPal">
