@@ -33,6 +33,10 @@ atom-text-editor, :host {
                 color:@syntax-gutter-text-selected;
             }
 
+            &.folded {
+                color: lighten(@syntax-gutter-text-selected, 18%) !important; 
+            }
+
             &.git-line-modified {
                 color: @syntax-color-modified;
                 border-left: 1px solid @syntax-color-modified;
@@ -43,22 +47,26 @@ atom-text-editor, :host {
                 }
             }
             &.git-line-added {
-                color: @syntax-color-added;
-                border-left: 1px solid @syntax-color-added;
+                color: @syntax-color-added !important;
+                border-left: 1px solid @syntax-color-added !important;
                 &.cursor-line {
-                    background: fade(@syntax-color-added, 40%);
-                    color: darken(@syntax-text-color, 14%);
+                    background: fade(@syntax-color-added, 40%) !important;
+                    color: darken(@syntax-text-color, 14%) !important;
                     border: 0;
                 }
             }
             &.git-line-removed {
-                color: @syntax-color-removed;
-                border-left: 1px solid @syntax-color-removed;
+                color: @syntax-color-removed !important;
+                border-left: 1px solid @syntax-color-removed !important;
                 &.cursor-line {
-                    background: fade(@syntax-color-removed, 40%);
-                    color: darken(@syntax-text-color, 18%);
+                    background: fade(@syntax-color-removed, 40%) !important;
+                    color: darken(@syntax-text-color, 18%) !important;
                     border: 0;
                 }
+            }
+
+            .icon-right::before {
+                color:  mix(@light-gray, @blue, 30%);
             }
         }
     }
