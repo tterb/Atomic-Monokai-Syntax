@@ -1,112 +1,112 @@
 // CSS
 
-.source.css {
-	.entity {
-    	&.name.tag {
+.syntax--source.syntax--css {
+	.syntax--entity {
+    	&.syntax--name.syntax--tag {
         	color: @green;
     	}
-    	&.other.attribute-name {
+    	&.syntax--other.syntax--attribute-name {
         	font-weight: normal !important;
-        	&.class {
+        	&.syntax--class {
             	color: @magenta;
-            	&.mixin {
+            	&.syntax--mixin {
                 	color: @green;
             	}
         	}
-        	&.id {
+        	&.syntax--id {
             	color: @magenta;
             	font-weight: bold;
         	}
-        	&.parent-selector {
+        	&.syntax--parent-selector {
             	color: @purple;
         	}
-			&.pseudo-class {
+			&.syntax--pseudo-class {
             	color: @orange;
         	}
-        	&.pseudo-element {
+        	&.syntax--pseudo-element {
             	color: @purple;
         	}
     	}
 	}
 
-	.constant {
-    	&.property-value {
+	.syntax--constant {
+    	&.syntax--property-value {
         	color: @green;
     	}
 	}
 
-	.keyword {
-		&.control {
+	.syntax--keyword {
+		&.syntax--control {
 			color: @magenta;
-			&.logical.operator {
+			&.syntax--logical.syntax--operator {
 				color: @blue;
 			}
 		}
-		&&.other {
-			&.important {
+		&&.syntax--other {
+			&.syntax--important {
 				color: @purple;
 				font-weight: bold;
 			}
 		}
 	}
 
-	.meta {
-	    .at-rule.import {
+	.syntax--meta {
+	    .syntax--at-rule.syntax--import {
 	        color: @orange;
 	    }
-	    .property-list {
+	    .syntax--property-list {
 	        color: @blue;
 	    }
 	}
 
-	.punctuation {
-	    &.section {
+	.syntax--punctuation {
+	    &.syntax--section {
 	        color: @syntax-text-color;
 	    }
-		&.definition {
-			&.entity {
+		&.syntax--definition {
+			&.syntax--entity {
 	        	color: @blue;
 			}
-			&.keyword {
+			&.syntax--keyword {
 				color: @magenta;
 			}
 		}
-	    &.separator.key-value {
+	    &.syntax--separator.syntax--key-value {
 	        color: @blue;
 	    }
 	}
 
-	.support {
-	    &.function.any-method.builtin {
+	.syntax--support {
+	    &.syntax--function.syntax--any-method.syntax--builtin {
 	        color: @green;
 	    }
-	    &.type.property-name {
+	    &.syntax--type.syntax--property-name {
 	        color: @syntax-text-color;
 	    }
 	}
 
-	.variable {
-	    &.parameter.misc {
+	.syntax--variable {
+	    &.syntax--parameter.syntax--misc {
 	        color: @blue;
 	    }
 	}
 }
 
 
-.keyword.control {
-    &.at-rule.import.less {
+.syntax--keyword.syntax--control {
+    &.syntax--at-rule.syntax--import.syntax--less {
         color: @purple;
     }
 }
 
-.punctuation {
-    &.definition.keyword.less {
+.syntax--punctuation {
+    &.syntax--definition.syntax--keyword.syntax--less {
         color: @orange;
     }
 }
 
-.support {
-    &.function.any-method.builtin.less {
+.syntax--support {
+    &.syntax--function.syntax--any-method.syntax--builtin.syntax--less {
         color: @magenta;
     }
 }

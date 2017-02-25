@@ -1,57 +1,57 @@
 // Shell
 
-.source.shell {
+.syntax--source.syntax--shell {
 
-	.comment.line.number-sign.shebang {
+	.syntax--comment.syntax--line.syntax--number-sign.syntax--shebang {
 		font-style: italic;
 	}
 
-	.keyword {
-		&.control {
+	.syntax--keyword {
+		&.syntax--control {
 			color: @magenta;
 			font-weight: bold;
 		}
-		&.operator {
+		&.syntax--operator {
 			font-weight: bold;
-			&.logical {
+			&.syntax--logical {
 				font-weight: normal;
 			}
 		}
 	}
 
-	.punctuation {
-		&.definition {
-			&.string {
+	.syntax--punctuation {
+		&.syntax--definition {
+			&.syntax--string {
 				color: @purple;
 			}
-			&.variable {
+			&.syntax--variable {
 				color: @purple;
 			}
 		}
 	}
 
-	.string {
-		&.interpolated.dollar {
+	.syntax--string {
+		&.syntax--interpolated.syntax--dollar {
 			color: @syntax-text-color;
 		}
-		&.other.math {
+		&.syntax--other.syntax--math {
 			color: @syntax-text-color;
 		}
 	}
 
-	.support {
-		&.function.builtin {
+	.syntax--support {
+		&.syntax--function.syntax--builtin {
 			color: @green;
 			font-weight: normal;
 		}
 	}
 
-	.variable {
-		&.other {
-			&.normal {
+	.syntax--variable {
+		&.syntax--other {
+			&.syntax--normal {
 				color: @blue;
 			}
-			&.special {
+			&.syntax--special {
 				color: @green;
 			}
 		}

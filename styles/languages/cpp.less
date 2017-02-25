@@ -1,82 +1,82 @@
 // C++
 
-.source.cpp {
+.syntax--source.syntax--cpp {
 
-    .entity.name {
-        &.function {
+    .syntax--entity.syntax--name {
+        &.syntax--function {
             color: @green;
-            &.preprocessor {
+            &.syntax--preprocessor {
                 color: @syntax-text-color;
             }
         }
-        &.type {
+        &.syntax--type {
             color: @green;
             font-weight: normal !important;
         }
     }
 
-    .keyword {
-		&.control.directive {
+    .syntax--keyword {
+		&.syntax--control.syntax--directive {
 			color: @magenta;
 		}
-		&.operator {
+		&.syntax--operator {
 	        color: @magenta;
-	        &.bitwise.shift {
+	        &.syntax--bitwise.syntax--shift {
 	            font-weight: 900;
 	        }
 		}
     }
 
-    .meta {
-        &.block {
+    .syntax--meta {
+        &.syntax--block {
             color: @syntax-text-color;
         }
-		&.class-struct-block {
+		&.syntax--class-struct-block {
 			color: @syntax-text-color;
 		}
-        &.function {
+        &.syntax--function {
             color: @syntax-text-color;
         }
-        &.parens {
+        &.syntax--parens {
             color: @orange;
         }
-		&.preprocessor {
+		&.syntax--preprocessor {
 			color: @syntax-text-color;
 		}
-		&.using-namespace-declaration {
+		&.syntax--using-namespace-declaration {
 			color: @syntax-text-color;
 		}
     }
 
-    .punctuation {
+    .syntax--punctuation {
         color: @syntax-text-color;
-		&.definition {
-			&.comment {
+		&.syntax--definition {
+			&.syntax--comment {
 				color: darken(@lighter-gray, 8%);
 			}
-            &.directive {
+            &.syntax--directive {
 			    color: @purple;
             }
-            &.string {
+            &.syntax--string {
                 color: @yellow;
             }
 		}
-        &.section.parens {
+        &.syntax--section.syntax--parens {
             color: @syntax-text-color;
         }
     }
 
-    .storage {
-        &.type {
+    .syntax--storage {
+        &.syntax--type {
             color: @blue;
-            &.class {
+            &.syntax--class {
 	            color: @magenta;
 			}
         }
     }
 
-    .support {
-        &.function.any-method {
+    .syntax--support {
+        &.syntax--function.syntax--any-method {
             color: @blue;
         }
     }
@@ -86,27 +86,27 @@
 
 
 // Makefile
-.source.makefile {
+.syntax--source.syntax--makefile {
 
-	.entity.name.function.target {
+	.syntax--entity.syntax--name.syntax--function.syntax--target {
 		color: @magenta;
 		font-weight: bold;
 	}
 
-    .meta.scope {
-        &.prerequisites {
+    .syntax--meta.syntax--scope {
+        &.syntax--prerequisites {
     	    color: @blue;
         }
-		&.recipe {
+		&.syntax--recipe {
 			color: @syntax-text-color;
 			font-weight: light;
 		}
-        &.target {
+        &.syntax--target {
             color: @orange;
         }
     }
 
-    .punctuation.separator.key-value {
+    .syntax--punctuation.syntax--separator.syntax--key-value {
         color: @purple;
     }
 

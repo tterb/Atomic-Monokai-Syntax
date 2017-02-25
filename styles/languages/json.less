@@ -1,46 +1,46 @@
 // JSON
 
-.source.json {
-    .meta {
-        &.structure.dictionary {
+.syntax--source.syntax--json {
+    .syntax--meta {
+        &.syntax--structure.syntax--dictionary {
             color: @magenta;
-            &.value {
+            &.syntax--value {
                 color: @blue;
             }
-            & > .string.quoted {
-                & > .punctuation.string {
+            & > .syntax--string.syntax--quoted {
+                & > .syntax--punctuation.syntax--string {
                     color: @yellow;
                 }
                 color: @magenta;
             }
         }
 
-        &.structure.dictionary.json, &.structure.array.json {
-            & > .value.json > .string.quoted.json,
-            & > .value.json > .string.quoted.json > .punctuation {
+        &.syntax--structure.syntax--dictionary.syntax--json, &.syntax--structure.syntax--array.syntax--json {
+            & > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+            & > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation {
                 color: @syntax-text-color;
             }
 
-            & > .constant.language.json {
+            & > .syntax--constant.syntax--language.syntax--json {
                 color: @purple;
             }
         }
     }
 
-    .punctuation {
-        &.definition.array {
+    .syntax--punctuation {
+        &.syntax--definition.syntax--array {
             color: @green;
         }
-        &.definition.dictionary {
+        &.syntax--definition.syntax--dictionary {
             color: @syntax-text-color;
         }
-        &.separator.dictionary.key-value {
+        &.syntax--separator.syntax--dictionary.syntax--key-value {
         color: @blue;
         }
     }
 
-    .string {
-        &.quoted.double {
+    .syntax--string {
+        &.syntax--quoted.syntax--double {
             color: @purple;
         }
     }

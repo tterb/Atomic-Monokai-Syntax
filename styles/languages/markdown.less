@@ -1,58 +1,58 @@
 // GitHub-Flavored Mardown
 
-.source.gfm .markup {
+.syntax--source.syntax--gfm .syntax--markup {
 
-    &.bold {
+    &.syntax--bold {
         color: @purple;
         font-weight: bold;
     }
 
-    &.bold.italic {
+    &.syntax--bold.syntax--italic {
         color: @orange;
         font-weight: bold;
         font-style: italic;
     }
 
-    &.constant {
-        &.character.entity {
+    &.syntax--constant {
+        &.syntax--character.syntax--entity {
             color: @orange;
         }
     }
 
-    &.entity {
+    &.syntax--entity {
         color: @purple;
     }
 
-    &.heading {
+    &.syntax--heading {
         color: @magenta;
         font-weight: bold;
 		font-size: 16px;
 		line-height: 20px;
-		&.heading-4 {
+		&.syntax--heading-4 {
 			font-size: 15px;
 		}
     }
 
-    &.italic {
+    &.syntax--italic {
         color: @yellow;
         font-style: italic;
     }
 
-    &.raw {
+    &.syntax--raw {
         color: @green;
     }
 
-    &.table {
+    &.syntax--table {
         color: #000 !important;
-        &.thead {
+        &.syntax--thead {
             font-weight: bold;
         }
-        &.tr {
+        &.syntax--tr {
             font-weight: bold;
         }
     }
 
-    &.underline.link {
+    &.syntax--underline.syntax--link {
         color: @blue;
         font-style: italic;
         font-weight: lighter;
@@ -62,38 +62,38 @@
 
 [data-grammar*="gfm"]::shadow {
 
-    .markup.underline.link {
-        &.https.hyperlink {
+    .syntax--markup.syntax--underline.syntax--link {
+        &.syntax--https.syntax--hyperlink {
             text-decoration: none;
         }
-        span.punctuation {
+        span.syntax--punctuation {
             color: @blue;
             font-weight: 900;
             font-style: normal;
         }
     }
 
-    .punctuation.definition.begin,
-    .punctuation.definition.end {
+    .syntax--punctuation.syntax--definition.syntax--begin,
+    .syntax--punctuation.syntax--definition.syntax--end {
         color: @blue;
         font-weight: bold;
     }
 }
 
-.constant.character.entity.gfm {
+.syntax--constant.syntax--character.syntax--entity.syntax--gfm {
     color: @green;
 }
 
-.linebreak.gfm {
+.syntax--linebreak.syntax--gfm {
     border-bottom: 1px inset darken(@gray, 10%);
 }
 
-.variable {
-    &.unordered.list.gfm {
+.syntax--variable {
+    &.syntax--unordered.syntax--list.syntax--gfm {
         color: @purple;
     }
 
-    &.ordered.list.gfm {
+    &.syntax--ordered.syntax--list.syntax--gfm {
         color: @orange;
     }
 }

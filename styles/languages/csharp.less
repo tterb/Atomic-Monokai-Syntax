@@ -1,64 +1,64 @@
 // C#
 
-.source.cs {
+.syntax--source.syntax--cs {
 
-    .constant.character.escape {
+    .syntax--constant.syntax--character.syntax--escape {
         color: @purple;
     }
 
-    .entity.name.type {
-        &.class {
+    .syntax--entity.syntax--name.syntax--type {
+        &.syntax--class {
             color: @green;
         }
-        &.namespace {
+        &.syntax--namespace {
             color: @blue;
             font-weight: normal;
         }
     }
 
-    .meta {
+    .syntax--meta {
         color: @syntax-text-color;
-        &.class {
+        &.syntax--class {
             color: @syntax-text-color;
         }
-        &.method {
+        &.syntax--method {
             color: @green;
-            &.body {
+            &.syntax--body {
                 color: @syntax-text-color;
             }
-            &.identifier {
+            &.syntax--identifier {
                 color: @orange;
             }
         }
-        &.method-call {
+        &.syntax--method-call {
             color: @blue;
         }
-        &.namespace {
+        &.syntax--namespace {
             color: @green;
 
-            &.body {
+            &.syntax--body {
                 color: @syntax-text-color;
             }
         }
     }
 
-    .punctuation {
-        &.definition {
+    .syntax--punctuation {
+        &.syntax--definition {
             color: @syntax-text-color;
-            &.comment {
+            &.syntax--comment {
                 color: @lighter-gray;
             }
-            &.string {
+            &.syntax--string {
                 color: @yellow;
             }
         }
-        &.section {
+        &.syntax--section {
             color: @syntax-text-color;
         }
     }
 
-    .variable {
-        &.parameter.function {
+    .syntax--variable {
+        &.syntax--parameter.syntax--function {
             color: @orange;
         }
     }

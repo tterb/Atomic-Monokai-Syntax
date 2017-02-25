@@ -1,35 +1,35 @@
 // HTML
 
-.source.html {
-    .entity {
-        &.name.tag {
-            &.block {
+.syntax--source.syntax--html {
+    .syntax--entity {
+        &.syntax--name.syntax--tag {
+            &.syntax--block {
                 color: @magenta;
             }
 
-            &.inline.any {
+            &.syntax--inline.syntax--any {
                 color: @green;
             }
         }
-        &.other.attribute-name {
+        &.syntax--other.syntax--attribute-name {
             font-style: italic;
         }
     }
-    .punctuation.definition.tag.end {
+    .syntax--punctuation.syntax--definition.syntax--tag.syntax--end {
         color: @green;
     }
 }
 
-.meta.tag {
-    &.sgml.doctype.html {
+.syntax--meta.syntax--tag {
+    &.syntax--sgml.syntax--doctype.syntax--html {
         color: @magenta;
     }
 }
 
-.punctuation.definition.tag.html {
+.syntax--punctuation.syntax--definition.syntax--tag.syntax--html {
 	color: @syntax-text-color;
 }
 
-.text.html.basic {
+.syntax--text.syntax--html.syntax--basic {
 	color: @syntax-text-color;
 }

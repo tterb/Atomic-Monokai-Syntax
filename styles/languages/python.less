@@ -1,52 +1,52 @@
 // Python
 
-.source.python {
+.syntax--source.syntax--python {
 
-    .entity.name.function {
+    .syntax--entity.syntax--name.syntax--function {
         color: @blue;
     }
 
-    .keyword {
-        &.control.import {
+    .syntax--keyword {
+        &.syntax--control.syntax--import {
             color: @purple;
-            &.from {
+            &.syntax--from {
                 color: @magenta;
             }
         }
-        &.operator {
-            &.comparison {
+        &.syntax--operator {
+            &.syntax--comparison {
                 font-weight: bold;
             }
-            &.logical {
+            &.syntax--logical {
                 color: @blue;
             }
         }
-        &.other {
+        &.syntax--other {
             color: @blue;
         }
     }
 
-    .meta {
-        &.function {
+    .syntax--meta {
+        &.syntax--function {
             color: @magenta;
         }
     }
 
-    .support {
-        &.function.builtin {
+    .syntax--support {
+        &.syntax--function.syntax--builtin {
             color: @green;
         }
     }
 
-    .storage.type.function {
+    .syntax--storage.syntax--type.syntax--function {
         color: @magenta;
         font-weight: bold;
     }
 
-    .variable {
+    .syntax--variable {
         color: @blue;
         font-style: italic;
-        &.parameter {
+        &.syntax--parameter {
             color: @green;
             font-style: normal;
         }
