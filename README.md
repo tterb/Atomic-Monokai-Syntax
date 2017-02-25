@@ -67,7 +67,7 @@ ______________________________________________________________________________
   <img src="https://cloud.githubusercontent.com/assets/16360374/23329703/2f38dea2-faf2-11e6-96eb-81c958f3f8f3.png" height="32" title="Active Development"/>
 </p>
 <p align="center">
-  Atomic Monokai is actively developed in order to improve language-specific <br> syntax-highlighting for an increasing collection of programming languages.<br> Have a language that you'd like to see supported? Suggest it [here](https://github.com/JonSn0w/Atomic-Monokai-Syntax/issues/new)
+  Atomic Monokai is actively developed in order to improve language-specific <br> syntax-highlighting for an increasing collection of programming languages.<br> Have a language that you'd like to see supported? Suggest it here
 </p>
 
 <br>
