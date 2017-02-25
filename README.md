@@ -18,7 +18,7 @@
 
 <!-- Preview -->
 <p align="center">
-    <img src="https://cloud.githubusercontent.com/assets/16360374/23330684/046dc66c-fb09-11e6-875e-a29192cc65f2.png" width="800" title="Preview">
+    <img src="https://cloud.githubusercontent.com/assets/16360374/23335163/52ae46ac-fb64-11e6-88ae-35efbe69b16a.png" width="800" title="Preview">
 </p>
 
 <!-- ## Description:   -->
@@ -44,7 +44,7 @@ ______________________________________________________________________________
 
 <!-- The Colors -->
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/16360374/23329702/2f38d182-faf2-11e6-8a32-af79bd990314.png" height="32" title="Colors"/>
+  <img src="https://cloud.githubusercontent.com/assets/16360374/23329702/2f38d182-faf2-11e6-8a32-af79bd990314.png" height="34" title="Colors"/>
 </p>
 <p align="center">
   Each of the colors used in this theme have been carefully selected and tweaked <br> overtime to provide optimal contrast and readability in any context.
@@ -54,7 +54,7 @@ ______________________________________________________________________________
 
 <!-- Language-specific -->
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/16360374/23329704/2f392fce-faf2-11e6-90de-3ac870764c62.png" height="32" title="Language-specific"/>
+  <img src="https://cloud.githubusercontent.com/assets/16360374/23329704/2f392fce-faf2-11e6-90de-3ac870764c62.png" height="34" title="Language-specific"/>
 </p>
 <p align="center">
   This syntax-theme has been strategically structured to allow individual attention <br> to be given to ensuring accurate highlighting for each supported language
@@ -64,7 +64,7 @@ ______________________________________________________________________________
 
 <!-- Active Development -->
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/16360374/23329703/2f38dea2-faf2-11e6-96eb-81c958f3f8f3.png" height="32" title="Active Development"/>
+  <img src="https://cloud.githubusercontent.com/assets/16360374/23329703/2f38dea2-faf2-11e6-96eb-81c958f3f8f3.png" height="34" title="Active Development"/>
 </p>
 <p align="center">
   Atomic Monokai is actively developed in order to improve language-specific <br> syntax-highlighting for an increasing collection of programming languages.<br> Have a language that you'd like to see supported? Suggest it here
@@ -88,10 +88,17 @@ ______________________________________________________________________________
 
 <!-- ## Screenshots: -->
 <img src="https://cloud.githubusercontent.com/assets/16360374/23330494/da47eb42-fb03-11e6-8d28-a7f16c07d0da.png" width="900" title="Screenshot">  
-
-  * [Java]  
-  * [HTML]  
-  * [Markdown]  
+  * [C++](https://cloud.githubusercontent.com/assets/16360374/23335165/57d99ece-fb64-11e6-9bcf-b200090ad077.png)
+  * [C#](https://cloud.githubusercontent.com/assets/16360374/23335166/57e71b80-fb64-11e6-8c9f-8fb48a8f7594.png)
+  * [CSS](https://cloud.githubusercontent.com/assets/16360374/23335169/57e965ac-fb64-11e6-8296-b16910ea5bdc.png)
+  * [HTML](https://cloud.githubusercontent.com/assets/16360374/18231558/6cba7498-7271-11e6-9575-d4448e5910d5.png)
+  * [Java](https://cloud.githubusercontent.com/assets/16360374/23335301/89b247d6-fb67-11e6-9c52-46976c215a68.png)
+  * [Markdown](https://cloud.githubusercontent.com/assets/16360374/18231352/9642c068-726c-11e6-857a-7e3d76293f88.png)
+  * [Perl](https://cloud.githubusercontent.com/assets/16360374/23335170/57eb81b6-fb64-11e6-91da-c514a0d6ffaf.png)
+  * [PHP](https://cloud.githubusercontent.com/assets/16360374/23335167/57e8ab9e-fb64-11e6-99b9-f8d288b768a0.png)
+  * [Python](https://cloud.githubusercontent.com/assets/16360374/23335168/57e8c70a-fb64-11e6-8c27-f04c7ce98c27.png)
+  * [XML](https://cloud.githubusercontent.com/assets/16360374/23335164/57b83b26-fb64-11e6-85ca-9b64b26c19e1.png)
+  * [More...](https://github.com/JonSn0w/Atomic-Monokai-Syntax/blob/master/documentation/Screenshots.md)
 
 <br>
 
@@ -127,10 +134,6 @@ ______________________________________________________________________________
 [Atomic Design UI]: https://atom.io/themes/atomic-design-ui
 [apm]: https://atom.io/themes
 [installing apm]: https://github.com/atom/apm#installing
-
-[Java]: https://cloud.githubusercontent.com/assets/16360374/17991247/af222646-6af1-11e6-9f00-61c81f9984e6.png
-[HTML]: https://cloud.githubusercontent.com/assets/16360374/18231558/6cba7498-7271-11e6-9575-d4448e5910d5.png
-[Markdown]: https://cloud.githubusercontent.com/assets/16360374/18231352/9642c068-726c-11e6-857a-7e3d76293f88.png
 
 [Minimap]: https://atom.io/packages/minimap
 [Toolbar]: https://atom.io/packages/toolbar
