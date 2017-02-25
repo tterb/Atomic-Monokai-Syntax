@@ -1,0 +1,44 @@
+.source.objc {
+
+    .entity.name {
+        &.type {
+            color: @green;
+        }
+    }
+
+    .meta {
+        &.function-with-body {
+            color: @purple;
+        }
+        &.return-type {
+            color: @orange;
+        }
+    }
+
+    .punctuation {
+        &.section.scope {
+            color: @syntax-text-color;
+        }
+        &.separator.arguments {
+            color: @magenta !important;
+        }
+    }
+
+    .storage {
+        &.type {
+            color: @blue;
+        }
+    }
+
+    .support {
+        &.class.cocoa {
+            color: @blue;
+        }
+        &.function.any-method {
+            color: @blue;
+            &.name-of-parameter {
+                color: @orange !important;
+            }
+        }
+    }
+}
