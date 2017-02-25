@@ -3,8 +3,8 @@
 The following is a set of guidelines for contributing to this project. These are not rules, use your best judgment and feel free to propose changes to this document in a pull request.
 
 ### Code of Conduct
-
 This project adheres to the Contributor Covenant [code of conduct](http://contributor-covenant.org/version/1/4/). By participating, you are expected to uphold this code. Please report unacceptable behavior to atom@github.com.
+
 
 ## How Can I Contribute?
 
@@ -19,7 +19,6 @@ This section guides you through submitting a bug report for Atom. Following thes
 * Include any relevant details about your configuration and environment.
 
 ### Enhancements & Feature Requests  
-
 Users provide the best insight for improving a product. So always feel free to suggest improvements, feedback, and give the developers an idea of what new features you'd like to see in the future.  
 **Don't forget, this is one of the greatest benefits of open-source development!**  
  If you'd like to submit an enhancement request, please include the following information:
@@ -31,13 +30,15 @@ Users provide the best insight for improving a product. So always feel free to s
 
 
 ### Pull Requests  
+**Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
+
 * Provide as much information as possible on the changes made to existing code.
 * Include thoughtfully-worded, well-structured commit messages and comments.
 * Include screenshots and animated GIFs in your pull request whenever possible.
 * When addressing an existing issue, please include an [issue mention](https://github.com/blog/957-introducing-issue-mentions) in the description of your pull request.
 * End files with a newline.
 * Avoid platform-dependent code on cross-platform applications.
-* Ensure that submitted code follows the style guidlines specified in the [Styleguide](#styleguide) below.  
+* Ensure that submitted code follows the style guidelines specified in the [Styleguide](#styleguide) below.  
 
 
 ## Styleguides  
@@ -46,10 +47,11 @@ Users provide the best insight for improving a product. So always feel free to s
  * Do your best to conform the tense to that of the existing commits. ("Add feature" not "Added feature" or vice versa)
  * Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
  * Consider starting the commit message with an applicable emoji:
-    * :art: `:art:` when improving the format/structure of the code
+    * :art: `:art:` when making aesthetic improvements
+    * :triangular_ruler: `:triangular_ruler:` when improving the format/structure of the code
     * :racehorse: `:racehorse:` when improving performance
     * :non-potable_water: `:non-potable_water:` when plugging memory leaks
-    * :memo: `:memo:` when writing docs
+    * :books: `:books:` when writing docs
     * :penguin: `:penguin:` when fixing something on Linux
     * :apple: `:apple:` when fixing something on macOS
     * :checkered_flag: `:checkered_flag:` when fixing something on Windows
@@ -63,7 +65,6 @@ Users provide the best insight for improving a product. So always feel free to s
     * :shirt: `:shirt:` when removing linter warnings
 
 ### Code   
-
  * Use spaces around operators  
   * `count + 1` instead of `count+1`
  * Use camelCase rather than underscore_case naming conventions
@@ -74,3 +75,7 @@ Users provide the best insight for improving a product. So always feel free to s
  * Provide comments for important or complex code
  * Conform your code to the existing styles to the best of your ability
  * Always check that your submission follows [The Boy Scout Rule](http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule)
+
+
+------------------------------------------------------------    
+(*Adapted from the contribution guidelines of [Atom](https://github.com/atom)*)
