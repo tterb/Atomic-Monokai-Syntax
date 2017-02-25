@@ -16,13 +16,13 @@
     </a>
 </p>
 
-<!-- Screenshot -->
+<!-- Preview -->
 <p align="center">
-    <img src="https://cloud.githubusercontent.com/assets/16360374/22630811/1d35a420-ebb5-11e6-9c80-05c5a8342146.png" width="800" title="Screenshot">
+    <img src="https://cloud.githubusercontent.com/assets/16360374/23330684/046dc66c-fb09-11e6-875e-a29192cc65f2.png" width="800" title="Preview">
 </p>
 
 <!-- ## Description:   -->
-<img src="https://cloud.githubusercontent.com/assets/16360374/23330102/f2aced12-fafa-11e6-88ff-855682b65d6f.png" width="900" title="Description">  
+<img src="https://cloud.githubusercontent.com/assets/16360374/23330493/da478f08-fb03-11e6-9ed2-c62cedc0024e.png" width="900" title="Description">  
 
   As a long-time Sublime Text user, I've made the transition to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="20"/> **[Atom]** as my go-to code editor, and while I enjoy it's more *hackable* aspects, I hadn' been unable to find a monokai syntax-theme that felt familiar amongst the available prospects. I'm actively working to improve the syntax-highlighting for individual languages, so feel free to submit any languages you would like to see improvements on.  
   ***Update:*** I've also developed a complimentary UI for this syntax-theme, so if you like this package, check out **[Atomic Design UI]**.  
@@ -34,7 +34,7 @@
 ______________________________________________________________________________  
 
 <!-- Features -->
-<img src="https://cloud.githubusercontent.com/assets/16360374/23330155/c794e066-fafb-11e6-8a52-6bac78f11f09.png" width="900" title="Features">  
+<img src="https://cloud.githubusercontent.com/assets/16360374/23330491/da4642ec-fb03-11e6-804b-75df1f142ddb.png" width="900" title="Features">  
 <br>
 
 <p align="center">
@@ -75,7 +75,7 @@ ______________________________________________________________________________
 ______________________________________________________________________________  
 
 <!-- ## Install: -->
-<img src="https://cloud.githubusercontent.com/assets/16360374/23330156/c794d396-fafb-11e6-86ed-a0e5718b2b80.png" width="900" title="Install">  
+<img src="https://cloud.githubusercontent.com/assets/16360374/23330492/da47704a-fb03-11e6-826e-283cd245f733.png" width="900" title="Install">  
 
   This package is distributed using *[apm]*. After [installing apm], you can install the syntax theme with the command:  
 
@@ -87,7 +87,7 @@ $ apm install atomic-monokai-syntax
 ______________________________________________________________________________  
 
 <!-- ## Screenshots: -->
-<img src="https://cloud.githubusercontent.com/assets/16360374/23330154/c7947c8e-fafb-11e6-90db-84ffffa8e5fb.png" width="900" title="Screenshot">  
+<img src="https://cloud.githubusercontent.com/assets/16360374/23330494/da47eb42-fb03-11e6-8d28-a7f16c07d0da.png" width="900" title="Screenshot">  
 
   * [Java]  
   * [HTML]  
