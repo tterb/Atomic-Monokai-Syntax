@@ -44,7 +44,7 @@ ______________________________________________________________________________
 
 <!-- The Colors -->
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/16360374/23329702/2f38d182-faf2-11e6-8a32-af79bd990314.png" height="34" title="Colors"/>
+  <img src="https://cloud.githubusercontent.com/assets/16360374/23390073/a86fce22-fd20-11e6-931e-4c14215522d0.png" height="36" title="Colors"/>
 </p>
 <p align="center">
   Each of the colors used in this theme have been carefully selected and tweaked <br> overtime to provide optimal contrast and readability in any context.
@@ -54,7 +54,7 @@ ______________________________________________________________________________
 
 <!-- Language-specific -->
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/16360374/23329704/2f392fce-faf2-11e6-90de-3ac870764c62.png" height="34" title="Language-specific"/>
+  <img src="https://cloud.githubusercontent.com/assets/16360374/23390074/a8708be6-fd20-11e6-9cb1-5313e3cd1482.png" height="36" title="Language-specific"/>
 </p>
 <p align="center">
   This syntax-theme has been strategically structured to allow individual attention <br> to be given to ensuring accurate highlighting for each supported language
@@ -64,7 +64,7 @@ ______________________________________________________________________________
 
 <!-- Active Development -->
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/16360374/23329703/2f38dea2-faf2-11e6-96eb-81c958f3f8f3.png" height="34" title="Active Development"/>
+  <img src="https://cloud.githubusercontent.com/assets/16360374/23390075/a8707b24-fd20-11e6-84fb-5ad2ca958880.png" height="36" title="Active Development"/>
 </p>
 <p align="center">
   Atomic Monokai is actively developed in order to improve language-specific <br> syntax-highlighting for an increasing collection of programming languages.<br> Have a language that you'd like to see supported? Suggest it here
