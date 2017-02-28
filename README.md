@@ -30,8 +30,8 @@
 
 *Keep in mind, this is my first attempt at creating a syntax theme for Atom, so if there are any issues please feel free to let me know and I'll do my best to fix them.*
 <br>  
+<br>
 
-______________________________________________________________________________  
 
 <!-- Features -->
 <img src="https://cloud.githubusercontent.com/assets/16360374/23330491/da4642ec-fb03-11e6-804b-75df1f142ddb.png" width="900" title="Features">  
