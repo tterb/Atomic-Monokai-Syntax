@@ -1,6 +1,6 @@
 <img src="https://cloud.githubusercontent.com/assets/16360374/21070257/355d0990-be37-11e6-8461-827b5c2dfe6d.png" height="90"/>  
 -----------------------------------------------------------------------------  
-#### A refined Monokai-flavored syntax-theme for Atom
+#### A refined Monokai-flavored syntax-theme for Atom  
 
 <!-- Badges -->
 <p align="right">
@@ -67,7 +67,7 @@
   <img src="https://cloud.githubusercontent.com/assets/16360374/23390075/a8707b24-fd20-11e6-84fb-5ad2ca958880.png" height="36" title="Active Development"/>
 </p>
 <p align="center">
-  Atomic Monokai is actively developed in order to improve language-specific <br> syntax-highlighting for an increasing collection of programming languages.<br> Have a language that you'd like to see supported? Suggest it here
+  <i>Atomic Monokai</i> is actively developed in order to improve language-specific <br> syntax-highlighting for an increasing collection of programming languages.<br> Have a language that you'd like to see supported? Suggest it here
 </p>
 
 <br>
