@@ -1,5 +1,5 @@
 <img src="https://cloud.githubusercontent.com/assets/16360374/21070257/355d0990-be37-11e6-8461-827b5c2dfe6d.png" height="90"/>  
------------------------------------------------------------------------------  
+--------    
 #### A refined Monokai-flavored syntax-theme for Atom  
 
 <!-- Badges -->
@@ -28,7 +28,7 @@
   ***Update:*** I've also developed a complimentary UI for this syntax-theme, so if you like this package, check out **[Atomic Design UI]**.  
 <br>
 
-*Keep in mind, this is my first attempt at creating a syntax theme for Atom, so if there are any issues please feel free to let me know and I'll do my best to fix them.*
+*This is my first attempt at creating a syntax theme for Atom, so if there are any issues please feel free to let me know and I'll do my best to fix them.*
 <br>  
 <br>
 
@@ -67,7 +67,7 @@
   <img src="https://cloud.githubusercontent.com/assets/16360374/23390075/a8707b24-fd20-11e6-84fb-5ad2ca958880.png" height="36" title="Active Development"/>
 </p>
 <p align="center">
-  <i>Atomic Monokai</i> is actively developed in order to improve language-specific <br> syntax-highlighting for an increasing collection of programming languages.<br> Have a language that you'd like to see supported? Suggest it here
+  <i>Atomic Monokai</i> is actively developed in order to improve language-specific <br> syntax-highlighting for an increasing collection of programming languages.<br> Have a language that you'd like to see supported? Suggest it <a href="https://github.com/JonSn0w/Atomic-Monokai-Syntax/issues/new">here</a>
 </p>
 
 <br>
@@ -88,17 +88,17 @@ ______________________________________________________________________________
 
 <!-- ## Screenshots: -->
 <img src="https://cloud.githubusercontent.com/assets/16360374/23330494/da47eb42-fb03-11e6-8d28-a7f16c07d0da.png" width="900" title="Screenshot">  
-  * [C++](https://cloud.githubusercontent.com/assets/16360374/23335165/57d99ece-fb64-11e6-9bcf-b200090ad077.png)
-  * [C#](https://cloud.githubusercontent.com/assets/16360374/23335166/57e71b80-fb64-11e6-8c9f-8fb48a8f7594.png)
-  * [CSS](https://cloud.githubusercontent.com/assets/16360374/23335169/57e965ac-fb64-11e6-8296-b16910ea5bdc.png)
-  * [HTML](https://cloud.githubusercontent.com/assets/16360374/18231558/6cba7498-7271-11e6-9575-d4448e5910d5.png)
-  * [Java](https://cloud.githubusercontent.com/assets/16360374/23335301/89b247d6-fb67-11e6-9c52-46976c215a68.png)
-  * [Markdown](https://cloud.githubusercontent.com/assets/16360374/18231352/9642c068-726c-11e6-857a-7e3d76293f88.png)
-  * [Perl](https://cloud.githubusercontent.com/assets/16360374/23335170/57eb81b6-fb64-11e6-91da-c514a0d6ffaf.png)
-  * [PHP](https://cloud.githubusercontent.com/assets/16360374/23335167/57e8ab9e-fb64-11e6-99b9-f8d288b768a0.png)
-  * [Python](https://cloud.githubusercontent.com/assets/16360374/23335168/57e8c70a-fb64-11e6-8c27-f04c7ce98c27.png)
-  * [XML](https://cloud.githubusercontent.com/assets/16360374/23335164/57b83b26-fb64-11e6-85ca-9b64b26c19e1.png)
-  * [More...](https://github.com/JonSn0w/Atomic-Monokai-Syntax/blob/master/documentation/Screenshots.md)
+  * [C++](https://cloud.githubusercontent.com/assets/16360374/23335165/57d99ece-fb64-11e6-9bcf-b200090ad077.png)  
+  * [C#](https://cloud.githubusercontent.com/assets/16360374/23335166/57e71b80-fb64-11e6-8c9f-8fb48a8f7594.png)  
+  * [CSS](https://cloud.githubusercontent.com/assets/16360374/23335169/57e965ac-fb64-11e6-8296-b16910ea5bdc.png)  
+  * [HTML](https://cloud.githubusercontent.com/assets/16360374/18231558/6cba7498-7271-11e6-9575-d4448e5910d5.png)  
+  * [Java](https://cloud.githubusercontent.com/assets/16360374/23335301/89b247d6-fb67-11e6-9c52-46976c215a68.png)  
+  * [Markdown](https://cloud.githubusercontent.com/assets/16360374/18231352/9642c068-726c-11e6-857a-7e3d76293f88.png)  
+  * [Perl](https://cloud.githubusercontent.com/assets/16360374/23335170/57eb81b6-fb64-11e6-91da-c514a0d6ffaf.png)  
+  * [PHP](https://cloud.githubusercontent.com/assets/16360374/23335167/57e8ab9e-fb64-11e6-99b9-f8d288b768a0.png)  
+  * [Python](https://cloud.githubusercontent.com/assets/16360374/23335168/57e8c70a-fb64-11e6-8c27-f04c7ce98c27.png)  
+  * [XML](https://cloud.githubusercontent.com/assets/16360374/23335164/57b83b26-fb64-11e6-85ca-9b64b26c19e1.png)  
+  * [More...](https://github.com/JonSn0w/Atomic-Monokai-Syntax/blob/master/documentation/Screenshots.md)  
 
 <br>
 
