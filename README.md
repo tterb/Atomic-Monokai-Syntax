@@ -1,5 +1,6 @@
-<img src="https://cloud.githubusercontent.com/assets/16360374/21070257/355d0990-be37-11e6-8461-827b5c2dfe6d.png" height="90"/>  
-  
+[<img src="https://cloud.githubusercontent.com/assets/16360374/21070257/355d0990-be37-11e6-8461-827b5c2dfe6d.png" height="90"/>](https://github.com/Atomic-Monokai-Syntax)  
+------------------------------------------------------------------------------  
+
 <!-- Badges -->
 <p align="right">
     <a href="https://atom.io/themes/atomic-monokai-syntax">
@@ -23,13 +24,13 @@
 <img src="https://cloud.githubusercontent.com/assets/16360374/23330493/da478f08-fb03-11e6-9ed2-c62cedc0024e.png" width="900" title="Description">  
 
   As a long-time Sublime Text user, I've made the transition to using &nbsp; <img src="https://cloud.githubusercontent.com/assets/16360374/17991222/82596480-6af1-11e6-9c96-3e2996a8be5a.png" width="20"/> **[Atom]** as my go-to code editor, and while I enjoy it's more *hackable* aspects, I hadn' been unable to find a monokai syntax-theme that felt familiar amongst the available prospects. I'm actively working to improve the syntax-highlighting for individual languages, so feel free to submit any languages you would like to see improvements on.  
+  <br>
   ***Update:*** I've also developed a complimentary UI for this syntax-theme, so if you like this package, check out **[Atomic Design UI]**.  
 <br>
 
-*This is my first attempt at creating a syntax theme for Atom, so if there are any issues please feel free to let me know and I'll do my best to fix them.*
-<br>  
-<br>
+*This is my first attempt at creating a syntax theme for Atom, so if there are any issues please feel free to let me know and I'll do my best to fix them.*  
 
+______________________________________________________________________________  
 
 <!-- Features -->
 <img src="https://cloud.githubusercontent.com/assets/16360374/23330491/da4642ec-fb03-11e6-804b-75df1f142ddb.png" width="900" title="Features">  
@@ -80,6 +81,10 @@ ______________________________________________________________________________
 ```
 $ apm install atomic-monokai-syntax
 ```
+<br>
+
+After installation, the theme can be activated by going to the **Themes** section in the *Settings* view and selecting it from the *UI Theme* drop-down menu.
+
 <br>
 
 ______________________________________________________________________________  
