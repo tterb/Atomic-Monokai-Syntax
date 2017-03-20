@@ -1,5 +1,6 @@
 <img src="https://cloud.githubusercontent.com/assets/16360374/21070257/355d0990-be37-11e6-8461-827b5c2dfe6d.png" height="90"/>  
-----------------------------------------------------------------------------    
+----------------------------------------------------------------------------  
+
 <!-- Badges -->
 <p align="right">
     <a href="https://atom.io/themes/atomic-monokai-syntax">
@@ -87,17 +88,17 @@ ______________________________________________________________________________
 <!-- ## Screenshots: -->
 <img src="https://cloud.githubusercontent.com/assets/16360374/23330494/da47eb42-fb03-11e6-8d28-a7f16c07d0da.png" width="900" title="Screenshot">  
 
-  * [C++]  
-  * [C#]  
-  * [CSS]  
-  * [HTML]  
-  * [Java]  
-  * [Markdown]  
-  * [Perl]  
-  * [PHP]  
-  * [Python]  
-  * [XML]  
-  * [More...]  
+  * **[C++]**  
+  * **[C#]**  
+  * **[CSS]**  
+  * **[HTML]**  
+  * **[Java]**  
+  * **[Markdown]**  
+  * **[Perl]**  
+  * **[PHP]**  
+  * **[Python]**  
+  * **[XML]**  
+  * ***[More...]***  
 
 <br>
 
@@ -112,7 +113,7 @@ ______________________________________________________________________________
   * ***[More...]***  
 
 
-*For more useful packages, check out my* ***[Essential Atom Packages]***, *which I'll continue to keep up to date as I explore and familiarize myself with the editor and it's community.*
+*For more useful packages, check out my [Essential Atom Packages], which I'll continue to keep up to date as I explore and familiarize myself with the editor and it's community.*
 <br>
 
 ______________________________________________________________________________  
