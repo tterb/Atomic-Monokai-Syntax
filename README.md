@@ -1,7 +1,5 @@
 <img src="https://cloud.githubusercontent.com/assets/16360374/21070257/355d0990-be37-11e6-8461-827b5c2dfe6d.png" height="90"/>  
---------    
-#### A refined Monokai-flavored syntax-theme for Atom  
-
+______________________________________________________________________________  
 <!-- Badges -->
 <p align="right">
     <a href="https://atom.io/themes/atomic-monokai-syntax">
@@ -88,17 +86,18 @@ ______________________________________________________________________________
 
 <!-- ## Screenshots: -->
 <img src="https://cloud.githubusercontent.com/assets/16360374/23330494/da47eb42-fb03-11e6-8d28-a7f16c07d0da.png" width="900" title="Screenshot">  
-  * [C++](https://cloud.githubusercontent.com/assets/16360374/23335165/57d99ece-fb64-11e6-9bcf-b200090ad077.png)  
-  * [C#](https://cloud.githubusercontent.com/assets/16360374/23335166/57e71b80-fb64-11e6-8c9f-8fb48a8f7594.png)  
-  * [CSS](https://cloud.githubusercontent.com/assets/16360374/23335169/57e965ac-fb64-11e6-8296-b16910ea5bdc.png)  
-  * [HTML](https://cloud.githubusercontent.com/assets/16360374/18231558/6cba7498-7271-11e6-9575-d4448e5910d5.png)  
-  * [Java](https://cloud.githubusercontent.com/assets/16360374/23335301/89b247d6-fb67-11e6-9c52-46976c215a68.png)  
-  * [Markdown](https://cloud.githubusercontent.com/assets/16360374/18231352/9642c068-726c-11e6-857a-7e3d76293f88.png)  
-  * [Perl](https://cloud.githubusercontent.com/assets/16360374/23335170/57eb81b6-fb64-11e6-91da-c514a0d6ffaf.png)  
-  * [PHP](https://cloud.githubusercontent.com/assets/16360374/23335167/57e8ab9e-fb64-11e6-99b9-f8d288b768a0.png)  
-  * [Python](https://cloud.githubusercontent.com/assets/16360374/23335168/57e8c70a-fb64-11e6-8c27-f04c7ce98c27.png)  
-  * [XML](https://cloud.githubusercontent.com/assets/16360374/23335164/57b83b26-fb64-11e6-85ca-9b64b26c19e1.png)  
-  * [More...](https://github.com/JonSn0w/Atomic-Monokai-Syntax/blob/master/documentation/Screenshots.md)  
+
+  * [C++]  
+  * [C#]  
+  * [CSS]  
+  * [HTML]  
+  * [Java]  
+  * [Markdown]  
+  * [Perl]  
+  * [PHP]  
+  * [Python]  
+  * [XML]  
+  * [More...]  
 
 <br>
 
@@ -134,6 +133,18 @@ ______________________________________________________________________________
 [Atomic Design UI]: https://atom.io/themes/atomic-design-ui
 [apm]: https://atom.io/themes
 [installing apm]: https://github.com/atom/apm#installing
+
+[C++]: https://cloud.githubusercontent.com/assets/16360374/23335165/57d99ece-fb64-11e6-9bcf-b200090ad077.png
+[C#]: https://cloud.githubusercontent.com/assets/16360374/23335166/57e71b80-fb64-11e6-8c9f-8fb48a8f7594.png
+[CSS]: https://cloud.githubusercontent.com/assets/16360374/23335169/57e965ac-fb64-11e6-8296-b16910ea5bdc.png
+[HTML]: https://cloud.githubusercontent.com/assets/16360374/18231558/6cba7498-7271-11e6-9575-d4448e5910d5.png
+[Java](https://cloud.githubusercontent.com/assets/16360374/23335301/89b247d6-fb67-11e6-9c52-46976c215a68.png
+[Markdown]: https://cloud.githubusercontent.com/assets/16360374/18231352/9642c068-726c-11e6-857a-7e3d76293f88.png
+[Perl]: https://cloud.githubusercontent.com/assets/16360374/23335170/57eb81b6-fb64-11e6-91da-c514a0d6ffaf.png
+[PHP]: https://cloud.githubusercontent.com/assets/16360374/23335167/57e8ab9e-fb64-11e6-99b9-f8d288b768a0.png
+[Python]: https://cloud.githubusercontent.com/assets/16360374/23335168/57e8c70a-fb64-11e6-8c27-f04c7ce98c27.png
+[XML]: https://cloud.githubusercontent.com/assets/16360374/23335164/57b83b26-fb64-11e6-85ca-9b64b26c19e1.png
+[More...]: https://github.com/JonSn0w/Atomic-Monokai-Syntax/blob/master/documentation/Screenshots.md
 
 [Minimap]: https://atom.io/packages/minimap
 [Toolbar]: https://atom.io/packages/toolbar
