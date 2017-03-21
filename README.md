@@ -28,7 +28,6 @@
   ***Update:*** I've also developed a complimentary UI for this syntax-theme, so if you like this package, check out **[Atomic Design UI]**.  
 <br>
 
-*This is my first attempt at creating a syntax theme for Atom, so if there are any issues please feel free to let me know and I'll do my best to fix them.*  
 
 ______________________________________________________________________________  
 
@@ -83,9 +82,7 @@ $ apm install atomic-monokai-syntax
 ```
 <br>
 
-After installation, the theme can be activated by going to the **Themes** section in the *Settings* view and selecting it from the *UI Theme* drop-down menu.
-
-<br>
+After installation, the theme can be activated by going to the **Themes** section in the *Settings* view and selecting it from the *UI Theme* drop-down menu.  
 
 ______________________________________________________________________________  
 
