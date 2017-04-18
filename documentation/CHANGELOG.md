@@ -1,8 +1,16 @@
 # Change Log
 <br>  
 
+## Version 1.2.1
 
-## Version 1.1.4
+   * Replaced deprecated selectors for Atom v1.13
+   * Improved Javascript and Ruby syntax-highlighting
+   * Added syntax-highlighting for Objective-C, Liquid, YAML, and Ruby on Rails
+   * Minor modifications made to color palette
+
+--------------------------------------------------------------------------------
+
+## Version 1.2.0
 
    * Improved selection visibility
    * Improved link and comment highlighting
