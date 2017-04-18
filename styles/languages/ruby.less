@@ -6,8 +6,13 @@
         color: @purple;
     }
 
-    .syntax--keyword.syntax--control.syntax--def {
-        color: @magenta;
+    .syntax--keyword.syntax--control{
+        &.syntax--def {
+            color: @magenta;
+        }
+        &.syntax--pseudo-method {
+            color: @green;
+        }
     }
 
     .syntax--meta.syntax--function.syntax--method.syntax--with-arguments {
@@ -18,8 +23,11 @@
         &.syntax--definition.syntax--variable {
             color: @blue;
         }
-        &.syntax--separator.syntax--key-value {
-            color: @orange;
+        &.syntax--separator{
+            // color: @blue;
+            .syntax--key-value {
+                color: @orange;
+            }
         }
     }
 
@@ -46,4 +54,33 @@
             }
         }
     }
+}
+
+// Rails
+.syntax--source.syntax--erb {
+    .syntax--meta {
+        &.syntax--embedded.line {
+            color: @blue;
+        }
+    }
+
+    .syntax--punctuation {
+        &.syntax--section.syntax--embedded {
+            color: @orange;
+        }
+    }
+
+    .syntax--text {
+        &.syntax--html {
+            color: @orange;
+        }
+    }
+}
+
+.syntax--meta.syntax--embedded.line.syntax--erb {
+    color: @blue;
+}
+
+.syntax--punctuation.syntax--section.syntax--embedded.syntax--erb {
+    color: @orange;
 }
