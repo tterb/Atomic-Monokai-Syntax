@@ -1,6 +1,1 @@
-.DS_Store
-.git
-npm-debug.log
-node_modules
-imgs/*
-packages/*
+img/unused/*
