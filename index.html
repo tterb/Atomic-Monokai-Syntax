@@ -2,12 +2,12 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Atomic Design</title>
-  <meta name="description" content="providing a modern and refined interface for Atom.">
+  <title>Atomic Monokai</title>
+  <meta name="description" content="providing accurate, monokai-flavored syntax-highlighting for Atom.">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <link rel="stylesheet" href="css/main.min.css">
-  <link rel="canonical" href="http://JonSn0w.github.io/atomic-design-ui/">
+  <link rel="canonical" href="http://JonSn0w.github.io/atomic-monokai-syntax/">
   <link href="img/favicon.png" rel="shortcut icon">
   <!-- <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'> -->
 
@@ -28,7 +28,7 @@
 
 <nav class="sidebar fixed h100">
   <div class="share-btn-wrap column bottom-left h100 p2 pb3">
-    <a class="github-button" href="https://github.com/JonSn0w/atomic-design-ui" data-icon="octicon-star" data-count-href="/JonSn0w/atomic-design-ui/stargazers" data-count-api="/repos/JonSn0w/atomic-design-ui#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star JonSn0w/atomic-design-ui on GitHub">Star</a>
+    <a class="github-button" href="https://github.com/JonSn0w/atomic-monokai-syntax" data-icon="octicon-star" data-count-href="/JonSn0w/atomic-monokai-syntax/stargazers" data-count-api="/repos/JonSn0w/atomic-monokai-syntax#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star JonSn0w/atomic-monokai-syntax on GitHub">Star</a>
   </div>
 </nav>
 
@@ -42,8 +42,8 @@
   </ul>
 
   <div class="editor-wrap">
-    <div id="tabs-1" data-syntax="Markdown" class="editor column center mt0 pb0 plr1"><h1 class="logotype mb0">Atomic Design</h1>
-    <h3 class="color-midgrey text-align-center mb4" style="margin-bottom:1.5em;">Providing a modern and refined interface for <a class="no-underline bb1 border-midgrey" href="https://atom.io/themes/atomic-design-ui">Atom</a></h3>
+    <div id="tabs-1" data-syntax="Markdown" class="editor column center mt0 pb0 plr1"><h1 class="logotype mb0">Atomic Monokai</h1>
+    <h3 class="color-midgrey text-align-center mb4" style="margin-bottom:1.5em;">Providing a modern and refined interface for <a class="no-underline bb1 border-midgrey" href="https://atom.io/themes/atomic-monokai-syntax">Atom</a></h3>
     <span class="text-align-center fs-small uppercase tracked">
     Created by <a class="mr1 color-white bb1 border-midgrey" href="http://JonSn0w.github.io">Brett Stevenson</a>
     </span>
@@ -57,10 +57,10 @@
 &lt;head&gt;
 
   &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;title&gt;Brett Stevenson - Designer/Developer, Atomic-Design, Atomic-Monokai, and more. Designer/Developer, Atomic-Design, Atomic-Monokai, and more.&lt;/title&gt;
+  &lt;title&gt;Brett Stevenson - Designer/Developer, atomic-monokai, Atomic-Monokai, and more. Designer/Developer, atomic-monokai, Atomic-Monokai, and more.&lt;/title&gt;
   &lt;meta name=&quot;description&quot; content=&quot;Designer/Developer. Stylesheets Corpus, Predawn, Norwester, and more. Dog-lover and avid reader of the internet&mdash;it&#039;s pretty good so far.&quot;&gt;
 
-  &lt;meta name=&quot;keywords&quot; content=&quot;brett stevenson, bstevenson, BStevensonDev, JonSn0w, JonSn0w.github.io, designer, design, developer, dev, Atomic-Design, Atomic-Monokai, UI, syntax, atom&quot;&gt;
+  &lt;meta name=&quot;keywords&quot; content=&quot;brett stevenson, bstevenson, BStevensonDev, JonSn0w, JonSn0w.github.io, designer, design, developer, dev, atomic-monokai, Atomic-Monokai, UI, syntax, atom&quot;&gt;
   &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1&quot;&gt;
   &lt;meta name=&quot;google-site-verification&quot; content=&quot;xICaRiFseDjdCoawimIDp8J8beVHQcEUr0i5thWv-Ho&quot; /&gt;
 
@@ -213,11 +213,11 @@ var disposable;
 
 export function activate() {
   disposable = new CompositeDisposable(
-	atom.config.observe(&#039;atomic-design-ui.useTabSyntaxColor&#039;, updateTabColor),
-	atom.config.observe(&#039;atomic-design-ui.lightTreeView&#039;, updateTreeViewTheme),
-	// atom.config.observe(&#039;atomic-design-ui.treeViewFontSize&#039;, updateTreeViewFont),
-	atom.config.observe(&#039;atomic-design-ui.compactTreeView&#039;, updateTreeViewSize),
-	atom.config.observe(&#039;atomic-design-ui.customIcons&#039;, updateIcons)
+	atom.config.observe(&#039;atomic-monokai-syntax.useTabSyntaxColor&#039;, updateTabColor),
+	atom.config.observe(&#039;atomic-monokai-syntax.lightTreeView&#039;, updateTreeViewTheme),
+	// atom.config.observe(&#039;atomic-monokai-syntax.treeViewFontSize&#039;, updateTreeViewFont),
+	atom.config.observe(&#039;atomic-monokai-syntax.compactTreeView&#039;, updateTreeViewSize),
+	atom.config.observe(&#039;atomic-monokai-syntax.customIcons&#039;, updateIcons)
   );
 }
 
@@ -228,19 +228,19 @@ export function deactivate() {
 var workspaceView = atom.views.getView(atom.workspace);
 
 function updateTabColor(useTabSyntaxColor) {
-  workspaceView.setAttribute(&#039;data-atomic-design-ui-use-tab-syntax-colors&#039;, useTabSyntaxColor);
+  workspaceView.setAttribute(&#039;data-atomic-monokai-syntax-use-tab-syntax-colors&#039;, useTabSyntaxColor);
 }
 
 function updateTreeViewTheme(lightTreeView) {
-  workspaceView.setAttribute(&#039;data-atomic-design-ui-light-tree-view&#039;, lightTreeView);
+  workspaceView.setAttribute(&#039;data-atomic-monokai-syntax-light-tree-view&#039;, lightTreeView);
 }
 
 function updateTreeViewSize(compactTreeView) {
-  workspaceView.setAttribute(&#039;data-atomic-design-ui-compact-tree-view&#039;, compactTreeView);
+  workspaceView.setAttribute(&#039;data-atomic-monokai-syntax-compact-tree-view&#039;, compactTreeView);
 }
 
 function updateIcons(customIcons) {
-  workspaceView.setAttribute(&#039;data-atomic-design-ui-custom-icons&#039;, customIcons);
+  workspaceView.setAttribute(&#039;data-atomic-monokai-syntax-custom-icons&#039;, customIcons);
 }
 </code></pre>
   </div>
