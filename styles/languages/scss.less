@@ -5,13 +5,26 @@
     .syntax--keyword.syntax--control.syntax--at-rule.syntax--include {
         color: @magenta;
     }
-    .syntax--meta.syntax--property-list {
-        color: @orange;
+    .syntax--meta {
+        &.syntax--property-list {
+            color: @magenta;
+        }
+        &.syntax--set.syntax--variable.syntax--map {
+            color: @blue;
+        }
     }
-    .syntax--support.syntax--function.syntax--misc {
-        color: @magenta;
+    .syntax--support {
+        &.syntax--function.syntax--misc {
+            color: @magenta;
+        }
+        &.syntax--type.syntax--map.syntax--key {
+            color: @magenta;
+        }
     }
-    .syntax--variable.syntax--interpolation {
+    .syntax--variable {
         color: @orange;
+        .syntax--interpolation {
+            color: @orange;
+        }
     }
 }
