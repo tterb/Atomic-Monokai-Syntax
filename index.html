@@ -6,22 +6,33 @@
   <meta name="description" content="Providing accurate, monokai-flavored syntax-highlighting for Atom.">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <link rel="stylesheet" href="css/main.min.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="canonical" href="http://JonSn0w.github.io/atomic-monokai-syntax/">
   <link href="img/favicon.png" rel="shortcut icon">
   <!-- <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'> -->
 
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+  <style>
+    @font-face{font-family:'FontAwesome';src:url('../fonts/fontawesome/fontawesome-webfont.eot?v=4.7.0');src:url('../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),url('../fonts/fontawesome/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('../fonts/fontawesome/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('../fonts/fontawesome/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('../fonts/fontawesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+    .fa-github:before{content:"\f09b";}.fa-deviantart:before{content:"\f1bd";}.fa-dribbble:before{content:"\f17d"}.fa-twitter:before{content:"\f099";}.fa-linkedin-square:before{content:"\f08c";}.fa-envelope:before{content:"\f0e0";}.fa-envelope-o:before{content:"\f003";}.fa-linkedin:before{content:"\f0e1";}.fa-code-fork:before{content:"\f126";}.fa-hdd-o:before{content:"\f0a0"}
+  </style>
 </head>
 
   <body class="row fullscreen color-white fadeIn overflow-hidden">
 
     <div class="status-bar row space-between fixed bottom depth-10 no-pointer-events">
-  <div class="cursor-location">Line 2, Column 51</div>
   <div>
-    <span class="mr2">Spaces: 2</span>
-    <span id="syntax-label" class="mr2">Markdown</span>
+    <span id="filename" class="ml1 filename">README.md</span>
+    <span id="cursor-location" class="ml1 cursor-location">2:51</span>
+  </div>
+  <div>
+    <span id="line-ending" class="mr1">UTF-8</span>
+    <span class="mr1">2 Spaces</span>
+    <span id="syntax-label" class="mr1">Markdown</span>
+    <span id="branch" class="mr1 fa-code-fork"><span>&nbsp;&nbsp;master</span></span>
+    <span id="git-status" class="mr1">+106, -82</span>
+    <span id="updates" class="mr1 fa-hdd-o"><span>&nbsp;&nbsp;2 updates</span></span>
   </div>
 </div>
 
@@ -36,45 +47,60 @@
   <div class="js-tabs">
   <ul class="tabs row center-left fixed depth-10 scroll-horizontal no-scrollbar">
     <li class="tab row center-left"><img src="img/markdown.png" id="icon"><a class="nowrap overflow-hidden" href="#tabs-1">README.md</a></li>
-    <li class="tab row center-left"><img src="img/html.png" id="icon"><a class="nowrap overflow-hidden" href="#tabs-2">example.html</a></li>
-    <li class="tab row center-left"><img src="img/sass.png" id="icon"><a class="nowrap overflow-hidden" href="#tabs-3">example.scss</a></li>
-    <li class="tab row center-left"><img src="img/js.png" id="icon"><a class="nowrap overflow-hidden" href="#tabs-4">example.js</a></li>
+    <li class="tab row center-left"><img src="img/html.png" id="icon"><a class="nowrap overflow-hidden" href="#tabs-2">index.html</a></li>
+    <li class="tab row center-left"><img src="img/sass.png" id="icon"><a class="nowrap overflow-hidden" href="#tabs-3">styles.scss</a></li>
+    <li class="tab row center-left"><img src="img/js.png" id="icon"><a class="nowrap overflow-hidden" href="#tabs-4">main.js</a></li>
   </ul>
 
   <div class="editor-wrap">
-    <div id="tabs-1" data-syntax="Markdown" class="editor column center mt0 pb0 plr1"><h1 class="logotype mb0">Atomic Monokai</h1>
-    <h3 class="color-midgrey text-align-center mb4" style="font-size:1.35em;margin: 0.25em 0 1.5em 0;">Providing accurate, monokai-flavored syntax-highlighting for <a class="no-underline bb1 border-midgrey" href="https://atom.io/themes/atomic-monokai-syntax">Atom</a></h3>
+    <div id="tabs-1" data-syntax="Markdown" filename="README.md" class="editor column center mt0 pb0 plr1"><h1 class="logotype mb0">Atomic Monokai</h1>
+    <h3 class="color-midgrey text-align-center mb4" style="font-size:1.35rem;margin: 0.25em 0 1.5em 0;">Providing accurate, monokai-flavored syntax-highlighting for <a class="no-underline bb1 border-midgrey" href="https://atom.io/themes/atomic-monokai-syntax">Atom</a></h3>
     <span class="text-align-center fs-small uppercase tracked">
     Created by <a class="mr1 color-accent bb1 border-midgrey" href="http://JonSn0w.github.io">Brett Stevenson</a>
     </span>
     <div id="badges" align="right">
-      	<a href="https://atom.io/themes/atomic-design-ui" target="_blank">
-      		<img src="https://img.shields.io/apm/v/atomic-design-ui.svg?" height="21" width="52" title="Version"></a>&nbsp;&nbsp;
+      	<a href="https://atom.io/themes/atomic-monokai-syntax" target="_blank">
+      		<img src="https://img.shields.io/apm/v/atomic-monokai-syntax.svg?" height="21" width="52" title="Version"></a>&nbsp;&nbsp;
       	<a href="https://opensource.org/licenses/MIT" target="_blank">
-      		<img src="https://img.shields.io/apm/l/atomic-design-ui.svg?" height="21" width="52" title="License"></a>&nbsp;&nbsp;
+      		<img src="https://img.shields.io/apm/l/atomic-monokai-syntax.svg?" height="21" width="52" title="License"></a>&nbsp;&nbsp;
         <a href="" target="_blank">
-          <img src="https://img.shields.io/apm/dm/atomic-design-ui.svg?maxAge=2592000?" height="21" width="52" title="Downloads"></a>&nbsp;&nbsp;
-        <a href="https://atom.io/themes/atomic-design-ui" target="_blank">
+          <img src="https://img.shields.io/apm/dm/atomic-monokai-syntax.svg?maxAge=2592000?" height="21" width="52" title="Downloads"></a>&nbsp;&nbsp;
+        <a href="https://atom.io/themes/atomic-monokai-syntax" target="_blank">
       		<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" height="21" width="52" title="Open Source"></a>&nbsp;&nbsp;
       </div>
       <!-- <br/> -->
       <h2 class="desc-title text-align-left">Description</h2>
-      <hr style="width:98%;border: 0.5px solid rgba(100,100,100,0.3);margin-bottom:1em;"/>
+      <hr style="width:98%;border: 0.5px solid rgba(100,100,100,0.3);margin-bottom:2em;"/>
       <p class="description"><strong>Atomic Design</strong> aims to provide a modern and refined interface to compliment any dark syntax-theme, featuring modifications that focus on improving the user experience and adaptability. &nbsp;Similarly, this theme also includes a custom icon set and improved integration of some of the most common Atom packages.</p><br/><br/>
       <h2 class="install-title text-align-left">Install</h2>
-      <hr style="width:98%;border: 0.5px solid rgba(100,100,100,0.3);margin-bottom:1em;"/>
+      <hr style="width:98%;border: 0.5px solid rgba(100,100,100,0.3);margin-bottom:2em;"/>
       <p class="install">This package is distributed via <a href="https://atom.io/themes" target="_blank"><i>apm</i></a>.   &nbsp;After <a href="https://github.com/atom/apm#installing" target="_blank">installing apm</a>, you can install the UI-theme with the following command: <br/><code id="code-md">$ apm install atomic-monokai-syntax</code><br/><br/><br/>  After installation, the theme can be activated by going to the <strong>Themes</strong> section in the Settings view and selecting it from the <i>Syntax Theme</i> drop-down menu.</p><br/><br/>
       <h2 class="desc-title text-align-left">Features</h2>
-      <hr style="width:98%;border: 0.5px solid rgba(100,100,100,0.3);margin-bottom:1em;"/><br/>
+      <hr style="width:98%;border: 0.5px solid rgba(100,100,100,0.3);margin-bottom:2em;"/><br/>
       <img id="img-colors" src="https://cloud.githubusercontent.com/assets/16360374/26032583/b7c447e8-384b-11e7-9c00-ddc88984b0e3.png"/>
       <h4 class="feat text-align-center">The Colors</h4>
       <p class="features text-align-center">Each of the colors used in this theme have been carefully selected and tweaked <br/>overtime to provide optimal contrast and readability in any context.</p><br/>
       <h4 class="feat text-align-center">Language-specific</h4>
       <p class="features text-align-center">This syntax-theme has been strategically structured to allow individual attention <br/>to be given to ensuring accurate highlighting for each supported language</p><br/>
       <h4 class="feat text-align-center">Active Development</h4>
-      <p class="features text-align-center"><strong>Atomic Monokai</strong> is actively developed in order to improve language-specific <br/>syntax-highlighting for an increasing collection of programming languages. <br/>Have a language that you'd like to see supported? Suggest it <a href="https://github.com/JonSn0w/Atomic-Monokai-Syntax/issues/new">here</a></p><br/><br/>
+      <p class="features text-align-center"><strong>Atomic Monokai</strong> is actively developed in order to improve language-specific <br/>syntax-highlighting for an increasing collection of programming languages. <br/>Have a language that you'd like to see supported? Suggest it <a href="https://github.com/JonSn0w/Atomic-Monokai-Syntax/issues/new">here</a><br/></p><br/><br/>
+      <p style="margin:1em 0;"></p>
+      <div id="footer">
+        <ul class="icons">
+          <li><a target="_blank" href="https://github.com/JonSn0w/Atomic-Monokai-Syntax" class="icon fa-github"></a></li>
+          <li><a target="_blank" href="http://bstevenson.deviantart.com/" class="icon fa-deviantart"></a></li>
+          <li><a target="_blank" href="https://dribbble.com/JonSn0w" class="icon fa-dribbble"></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/brett-stevenson-0a035a72" class="icon fa-linkedin-square"><a></li>
+          <li><a target="_blank" href="https://twitter.com/BStevensonDev" class="icon fa-twitter"></a></li>
+          <li><a target="_blank" href="https://brettstevenson.me/contact/" class="icon fa-envelope-o"></a></li>
+        </ul>
+        <div class="copyright">
+          <span class="text-align-center fs-small uppercase tracked">&copy; 2016 <a class="mr1 color-accent bb1 border-midgrey" href="brettstevenson.me">Brett Stevenson</a></span>
+          <span class="text-align-center fs-small uppercase tracked">Built for <a class="mr1 color-accent bb1 border-midgrey" href="https://atom.io">Atom</a></span>
+        </div>
+      </div>
     </div>
-    <pre id="tabs-2" data-syntax="HTML" class="editor language-markup line-numbers no-indicator"><code>&lt;!--==============================================
+    <pre id="tabs-2" data-syntax="HTML" filename="index.html" class="editor language-markup line-numbers no-indicator"><code>&lt;!--==============================================
   NOTE: The syntax highlighting shown here might
   not match exactly what you see in your editor
 ===============================================--&gt;
@@ -123,34 +149,34 @@
   &lt;/section&gt;
 &lt;/header&gt;
 </code></pre>
-    <pre id="tabs-3" data-syntax="SCSS" class="editor language-scss line-numbers no-indicator"><code>//====================================================
+    <pre id="tabs-3" data-syntax="SCSS" filename="styles.scss" class="editor language-scss line-numbers no-indicator"><code>//====================================================
 //  NOTE: The syntax highlighting shown here might
 //  not match exactly what you see in your editor
 //====================================================
 
 .column {
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 auto;
-  height: auto;
-  flex-wrap: nowrap;
-  @include small {
-    min-width: 100%;
-  }
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    height: auto;
+    flex-wrap: nowrap;
+    @include small {
+        min-width: 100%;
+    }
 }
 
 .row {
-  display: flex;
-  flex: 1 1 auto;
-  height: auto;
-  flex-direction: row;
-  flex-wrap: wrap;
+    display: flex;
+    flex: 1 1 auto;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .row &gt; .column {
-  @include small {
-    width: 100% !important;
-  }
+    @include small {
+      width: 100% !important;
+    }
 }
 
 //====================================================
@@ -163,38 +189,38 @@
 // All direct descendants of .gutters get margin
 .gutters &gt; .column,
 .gutters &gt; .row {
-  margin: $margin;
-  @include small {
-    width: 100% !important;
-    min-width: 0;
-  }
+    margin: $margin;
+    @include small {
+        width: 100% !important;
+        min-width: 0;
+    }
 }
 
 // offset padding/margin to maintain width
 .gutters &gt; {
-  .w5    { width:  calc(5%   -  #{$padding + $margin}); }
-  .w10   { width:  calc(10%  -  #{$padding + $margin}); }
-  .w15   { width:  calc(15%  -  #{$padding + $margin}); }
-  .w20   { width:  calc(20%  -  #{$padding + $margin}); }
-  .w25   { width:  calc(25%  -  #{$padding + $margin}); }
-  .w30   { width:  calc(30%  -  #{$padding + $margin}); }
-  .w35   { width:  calc(35%  -  #{$padding + $margin}); }
-  .w40   { width:  calc(40%  -  #{$padding + $margin}); }
-  .w45   { width:  calc(45%  -  #{$padding + $margin}); }
-  .w50   { width:  calc(50%  -  #{$padding + $margin}); }
-  .w55   { width:  calc(55%  -  #{$padding + $margin}); }
-  .w60   { width:  calc(60%  -  #{$padding + $margin}); }
-  .w65   { width:  calc(65%  -  #{$padding + $margin}); }
-  .w70   { width:  calc(70%  -  #{$padding + $margin}); }
-  .w75   { width:  calc(75%  -  #{$padding + $margin}); }
-  .w80   { width:  calc(80%  -  #{$padding + $margin}); }
-  .w85   { width:  calc(85%  -  #{$padding + $margin}); }
-  .w90   { width:  calc(90%  -  #{$padding + $margin}); }
-  .w95   { width:  calc(95%  -  #{$padding + $margin}); }
-  .w100  { width:  calc(100% -  #{$padding + $margin}); }
+    .w5    { width:  calc(5%   -  #{$padding + $margin}); }
+    .w10   { width:  calc(10%  -  #{$padding + $margin}); }
+    .w15   { width:  calc(15%  -  #{$padding + $margin}); }
+    .w20   { width:  calc(20%  -  #{$padding + $margin}); }
+    .w25   { width:  calc(25%  -  #{$padding + $margin}); }
+    .w30   { width:  calc(30%  -  #{$padding + $margin}); }
+    .w35   { width:  calc(35%  -  #{$padding + $margin}); }
+    .w40   { width:  calc(40%  -  #{$padding + $margin}); }
+    .w45   { width:  calc(45%  -  #{$padding + $margin}); }
+    .w50   { width:  calc(50%  -  #{$padding + $margin}); }
+    .w55   { width:  calc(55%  -  #{$padding + $margin}); }
+    .w60   { width:  calc(60%  -  #{$padding + $margin}); }
+    .w65   { width:  calc(65%  -  #{$padding + $margin}); }
+    .w70   { width:  calc(70%  -  #{$padding + $margin}); }
+    .w75   { width:  calc(75%  -  #{$padding + $margin}); }
+    .w80   { width:  calc(80%  -  #{$padding + $margin}); }
+    .w85   { width:  calc(85%  -  #{$padding + $margin}); }
+    .w90   { width:  calc(90%  -  #{$padding + $margin}); }
+    .w95   { width:  calc(95%  -  #{$padding + $margin}); }
+    .w100  { width:  calc(100% -  #{$padding + $margin}); }
 }
 </code></pre>
-    <pre id="tabs-4" data-syntax="JavaScript" class="editor language-javascript line-numbers no-indicator"><code>//====================================================
+<pre id="tabs-4" data-syntax="JavaScript" filename="main.js" class="editor language-javascript line-numbers no-indicator"><code>//====================================================
 //  NOTE: The syntax highlighting shown here might
 //  not match exactly what you see in your editor
 //====================================================
@@ -206,32 +232,32 @@ import { CompositeDisposable } from &#039;atom&#039;;
 export var config = {
 
   useTabSyntaxColor: {
-	title: &#039;Match Tabs to Syntax Colors&#039;,
-	description: &#039;Use colors from the syntax theme to color tabs (not recommended for light themes)&#039;,
-	type: 'boolean',
-	default: true,
-	order: 1
+    title: &#039;Match Tabs to Syntax Colors&#039;,
+    description: &#039;Use colors from the syntax theme to color tabs (not recommended for light themes)&#039;,
+    type: 'boolean',
+    default: true,
+    order: 1
   },
   lightTreeView: {
-	title: &#039;Light Tree View&#039;,
-	description: &#039;Use light tree-view background&#039;,
-	type: &#039;boolean&#039;,
-	default: true,
-	order: 2
+    title: &#039;Light Tree View&#039;,
+    description: &#039;Use light tree-view background&#039;,
+    type: &#039;boolean&#039;,
+    default: true,
+    order: 2
   },
   compactTreeView: {
-	title: &#039;Compact Tree View&#039;,
-	description: &#039;Decrease tree-view font size and spacing&#039;,
-	type: &#039;boolean&#039;,
-	default: false,
-	order: 3
+    title: &#039;Compact Tree View&#039;,
+    description: &#039;Decrease tree-view font size and spacing&#039;,
+    type: &#039;boolean&#039;,
+    default: false,
+    order: 3
   },
   customIcons: {
-	title: &#039;Custom Icons&#039;,
-	description: &#039;Disable this if you\&#039;re using \&#039;file-icons\&#039; or similar icon packages&#039;,
-	type: &#039;boolean&#039;,
-	default: true,
-	order: 4
+    title: &#039;Custom Icons&#039;,
+    description: &#039;Disable this if you\&#039;re using \&#039;file-icons\&#039; or similar icon packages&#039;,
+    type: &#039;boolean&#039;,
+    default: true,
+    order: 4
   }
 };
 
@@ -239,11 +265,11 @@ var disposable;
 
 export function activate() {
   disposable = new CompositeDisposable(
-	atom.config.observe(&#039;atomic-monokai-syntax.useTabSyntaxColor&#039;, updateTabColor),
-	atom.config.observe(&#039;atomic-monokai-syntax.lightTreeView&#039;, updateTreeViewTheme),
-	// atom.config.observe(&#039;atomic-monokai-syntax.treeViewFontSize&#039;, updateTreeViewFont),
-	atom.config.observe(&#039;atomic-monokai-syntax.compactTreeView&#039;, updateTreeViewSize),
-	atom.config.observe(&#039;atomic-monokai-syntax.customIcons&#039;, updateIcons)
+  atom.config.observe(&#039;atomic-monokai-syntax.useTabSyntaxColor&#039;, updateTabColor),
+  atom.config.observe(&#039;atomic-monokai-syntax.lightTreeView&#039;, updateTreeViewTheme),
+  // atom.config.observe(&#039;atomic-monokai-syntax.treeViewFontSize&#039;, updateTreeViewFont),
+  atom.config.observe(&#039;atomic-monokai-syntax.compactTreeView&#039;, updateTreeViewSize),
+  atom.config.observe(&#039;atomic-monokai-syntax.customIcons&#039;, updateIcons)
   );
 }
 
@@ -269,7 +295,7 @@ function updateIcons(customIcons) {
   workspaceView.setAttribute(&#039;data-atomic-monokai-syntax-custom-icons&#039;, customIcons);
 }
 </code></pre>
-  </div>
+</div>
 </div>
 
 </main>
