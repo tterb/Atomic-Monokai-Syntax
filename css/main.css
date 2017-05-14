@@ -3369,9 +3369,9 @@ body {
     width: 100%;
     font-family: Lucida, "Lucida Grande", sans-serif;
     font-size: 11px;
+    background: -webkit-linear-gradient(#2B2B29, #1A1A1A);
     color: #777;
-    padding: 3px 10px;
-    background-color: #1f1f1f
+    padding: 5px 10px;
 }
 
 .logotype {
@@ -3474,6 +3474,129 @@ body {
 #img-colors {
     width: 48%;
     margin: auto;
-    margin-top: 1em;
+    margin-top: 0;
     margin-bottom: 2.25em;
+}
+
+#filename {
+    margin-left: 0.5rem;
+}
+
+#branch {
+    font-family: "FontAwesome";
+    /*font-size: 0.6em;*/
+    content: "\f126";
+    color: #777;
+    /*padding-right: 0.25em;*/
+}
+
+#branch span {
+    font-family: Lucida, "Lucida Grande", sans-serif;
+    font-size: 11px;
+    color: #777;
+    margin-right: 0;
+}
+
+#git-status {
+    font-size: 11px;
+    color: #FE9E10 !important;
+    margin-right: 1rem;
+}
+
+#updates {
+    font-family: "FontAwesome";
+    content: "\f0a0";
+    color: #5FD9F1 !important;
+    margin-right: 0;
+}
+
+#updates span {
+    font-family: Lucida, "Lucida Grande", sans-serif;
+    font-size: 10px;
+    color: #5FD9F1 !important;
+    margin-right: 0.5rem;
+}
+
+#footer {
+    background-color: darken(_palette(bg), 8);
+	text-align: center;
+	padding: 1.75em 3em 0.25em 3em !important;
+}
+
+#footer .icons {
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0.25em;
+    list-style-type: none !important;
+}
+
+#footer .icons li {
+    display: inline;
+    position: relative;
+	padding: 0 0.65em 0 0;
+	left: -3px;
+}
+
+#footer .icons a {
+    color: rgba(255,255,255,0.5);
+}
+
+#footer .icons a:hover {
+    color: #cbcdcf;
+}
+
+#footer li:nth-child(n) {
+    font-family: "FontAwesome";
+    color: rgba(255,255,255,0.5);
+    font-size: 1.25em;
+}
+
+#footer li:nth-child(1) {
+    content:"\f09b";
+}
+
+#footer li:nth-child(2) {
+    content:"\f1bd";
+}
+
+#footer li:nth-child(3) {
+    content:"\f17d";
+}
+
+#footer li:nth-child(4) {
+    content:"\f08c";
+}
+
+#footer li:nth-child(5) {
+    content:"\f099";
+}
+
+#footer li:nth-child(6) {
+    content:"\f003";
+}
+
+#footer .copyright {
+	color: rgba(255,255,255,0.5);
+	letter-spacing: 0.225em;
+	list-style: none;
+	margin-bottom: 1.25em;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+#footer .copyright span {
+	display: inline-block;
+    font-size: 65%;
+    padding-right: 0.25em;
+}
+
+#footer .copyright span:nth-child(2) {
+	border-left: solid 1px rgba(255,255,255,0.5);
+    padding-left: 0.75em;
+}
+
+#footer .copyright a {
+    margin: 0;
 }
