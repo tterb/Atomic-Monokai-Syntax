@@ -7,6 +7,9 @@ $(document).ready(function(){
     // Set Syntax Label
     var syntax = $(ui.newPanel).data("syntax");
     $("#syntax-label").text(syntax);
+    // Set Filename
+    var file = $(ui.newPanel).data("file");
+    $("#filename").text(file);
   });
 
   $(".tabs").sortable({ axis: "x", revert: 150 });
