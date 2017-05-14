@@ -14,7 +14,7 @@
             	}
         	}
         	&.syntax--id {
-            	color: @magenta;
+            	color: @blue;
             	font-weight: bold;
         	}
         	&.syntax--parent-selector {
@@ -42,7 +42,10 @@
 				color: @blue;
 			}
 		}
-		&&.syntax--other {
+		&.syntax--operator.syntax--combinator {
+			color: @blue;
+		}
+		&.syntax--other {
 			&.syntax--important {
 				color: @purple;
 				font-weight: bold;
