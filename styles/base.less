@@ -69,6 +69,20 @@ atom-text-editor,atom-text-editor {
                 color:  mix(@light-gray, @blue, 30%);
             }
         }
+        &:not(.git-diff-icon) .line-number.git-line-removed {
+            &.git-line-removed::before {
+              bottom: -3px;
+            }
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0px;
+                bottom: 0px;
+                width: 25px;
+                border-bottom: 1px dotted fade(@syntax-color-removed, 90%);
+                pointer-events: none;
+            }
+        }
     }
 
     .gutter .line-number.folded,
